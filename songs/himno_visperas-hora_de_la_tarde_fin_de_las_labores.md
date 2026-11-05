@@ -1,7 +1,6 @@
 ---
 title: Hora de la tarde, fin de las labores
 horas:
-  - semana_i/miercoles/visperas/himno
   - semana_i/lunes/visperas/himno
 melody: |
   K:D

@@ -1,7 +1,6 @@
 ---
 title: Te damos gracias, Señor
 horas:
-  - semana_ii/martes/laudes/himno
   - semana_iv/viernes/visperas/himno
 melody: |
   K:D

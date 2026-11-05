@@ -1,7 +1,6 @@
 ---
 title: Eres la luz y siembras claridades
 horas:
-  - semana_iii/lunes/laudes/himno
   - semana_iv/viernes/laudes/himno
 melody: |
   K:C

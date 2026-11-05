@@ -1,7 +1,6 @@
 ---
 title: Alfarero del hombre
 horas:
-  - semana_ii/lunes/laudes/himno
   - semana_ii/jueves/laudes/himno
 melody: |
   K:D

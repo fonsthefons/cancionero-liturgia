@@ -1,7 +1,7 @@
 ---
 title: Como el niño que no sabe dormirse
 horas:
-  - semana_iii/martes/visperas/himno
+  - completas/jueves/himno
 ---
 
 Como el niño que no sabe dormirse

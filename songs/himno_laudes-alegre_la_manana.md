@@ -1,7 +1,5 @@
 ---
 title: Alegre la mañana
-horas:
-  - semana_iv/domingo/laudes/himno
 melody: |
   K:F
   "F"C/ A3/4A/4 A3/4G/4 F3/4"Dm"F/4

@@ -1,7 +1,6 @@
 ---
 title: Crece la luz bajo tu hermosa mano
 horas:
-  - semana_i/jueves/laudes/himno
   - semana_iv/lunes/laudes/himno
 melody: |
   K:F

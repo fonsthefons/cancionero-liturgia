@@ -1,7 +1,7 @@
 ---
 title: En el nombre del Padre, del Hijo y del Espíritu
 horas:
-  - semana_i/sabado/laudes/himno
+  - semana_iv/domingo/laudes/himno
 ---
 
 En el nombre del Padre, del Hijo y del Espíritu,

@@ -1,7 +1,7 @@
 ---
 title: Gracias, porque al fin del día
 horas:
-  - completas/*/himno
+  - completas/domingo_segundas_completas/himno
 melody: |
   K:D
   "D"F4 E D "Em"E E
