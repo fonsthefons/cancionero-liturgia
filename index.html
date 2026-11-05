@@ -782,6 +782,59 @@ body.drawer-open {
     font-size: 9px;
 }
 
+/* Psalm fórmulas (formula.js): the chosen semitono above the psalm, set apart. */
+.formula-pick {
+    margin-bottom: 12px;
+}
+
+.psalm-formula:not(:empty) {
+    margin-bottom: 1.2em;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid var(--border);
+}
+
+.formula-dialog {
+    box-sizing: border-box;
+    width: min(26rem, calc(100vw - 32px));
+    max-height: calc(100dvh - 32px);
+    padding: 16px;
+}
+
+.formula-dialog[open] {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formula-dialog input {
+    font: inherit;
+    padding: 8px;
+}
+
+.formula-options {
+    overflow-y: auto;
+    min-height: 0;
+}
+
+.formula-options h4 {
+    margin: 0.8em 0 0.3em;
+}
+
+.formula-options button {
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+    text-align: left;
+}
+
+.formula-options button[aria-pressed="true"] {
+    font-weight: bold;
+}
+
+.formula-options [hidden] {
+    display: none;
+}
+
 /* Never split a verse or a chord+lyric pair across columns/pages */
 .verse,
 .line-pair {
@@ -895,6 +948,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
     .backdrop,
     .drawer,
     .controls,
+    .formula-pick,
     .install-banner,
     .print-dialog {
         display: none !important;
@@ -1004,6 +1058,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a class="nav-tag" href="#index">Contenido</a></li>
 <li><a class="nav-tag" href="#all-songs">All Songs</a></li>
 <li><a class="nav-tag" href="#horas">Liturgia de las Horas</a><ul class="nav-subtags"><li><a class="nav-subtag" href="#horas-semana_i">Semana I</a></li><li><a class="nav-subtag" href="#horas-semana_ii">Semana II</a></li><li><a class="nav-subtag" href="#horas-semana_iii">Semana III</a></li><li><a class="nav-subtag" href="#horas-semana_iv">Semana IV</a></li><li><a class="nav-subtag" href="#horas-completas">Completas</a></li></ul></li>
+<li><a class="nav-tag" href="#tag-salmos">Salmos</a></li>
 <li><a class="nav-tag" href="#tag-formulas">Fórmulas Salmódicas</a><ul class="nav-subtags"><li><a class="nav-subtag" href="#tag-formulas-semitonos_2">Semitonos de 2</a></li><li><a class="nav-subtag" href="#tag-formulas-semitonos_3">Semitonos de 3</a></li><li><a class="nav-subtag" href="#tag-formulas-semitonos_4">Semitonos de 4</a></li><li><a class="nav-subtag" href="#tag-formulas-tonos_rectos">Tonos Rectos</a></li><li><a class="nav-subtag" href="#tag-formulas-responsorios_breves">Responsorios breves</a></li><li><a class="nav-subtag" href="#tag-formulas-semitonos_benedictus">Semitonos para Benedictus</a></li><li><a class="nav-subtag" href="#tag-formulas-semitonos_magnificat">Semitonos para Magnificat</a></li></ul></li>
 <li><a class="nav-tag" href="#tag-tiempos">Tiempos litúrgicos</a><ul class="nav-subtags"><li><a class="nav-subtag" href="#tag-tiempos-adviento">Adviento</a></li><li><a class="nav-subtag" href="#tag-tiempos-navidad">Navidad</a></li><li><a class="nav-subtag" href="#tag-tiempos-cuaresma">Cuaresma</a></li><li><a class="nav-subtag" href="#tag-tiempos-pascua">Pascua</a></li></ul></li>
 <li><a class="nav-tag" href="#tag-oficio_de_lectura">Oficio de lectura</a></li>
@@ -1227,7 +1282,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </details>
 <details class="subtag-index" id="horas-semana_ii-domingo-laudes"><summary><h5>Laudes</h5></summary>
 <ul class="song-list">
-<li><a href="#song-himno_laudes-somos_el_pueblo_de_la_pascua">Himno: 113. Somos el pueblo de la Pascua</a></li>
+<li><a href="#song-himno_laudes-somos_el_pueblo_de_la_pascua">Himno: 114. Somos el pueblo de la Pascua</a></li>
 <li><a href="#song-cantico-bendito_eres_senor_dios_de_nuestros_padres">Cántico: 73. Bendito eres, Señor, Dios de nuestros padres</a></li>
 <li><a href="#song-benedictus-benedictus">Benedictus: 74. Benedictus</a></li>
 <li><a href="#song-benedictus-benedictus_latin">Benedictus: 75. Benedictus (latín)</a></li>
@@ -1469,6 +1524,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <details class="subtag-index" id="horas-semana_iii-jueves"><summary><h4>Jueves</h4></summary>
 <details class="subtag-index" id="horas-semana_iii-jueves-laudes"><summary><h5>Laudes</h5></summary>
 <ul class="song-list">
+<li><a href="#song-salmo-086">Salmo 1: 110. Salmo 86</a></li>
 <li><a href="#song-benedictus-benedictus">Benedictus: 74. Benedictus</a></li>
 <li><a href="#song-benedictus-benedictus_latin">Benedictus: 75. Benedictus (latín)</a></li>
 <li><a href="#song-padrenuestro-padrenuestro_i">Padre Nuestro: 98. Padrenuestro I</a></li>
@@ -1584,7 +1640,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <details class="subtag-index" id="horas-semana_iv-martes"><summary><h4>Martes</h4></summary>
 <details class="subtag-index" id="horas-semana_iv-martes-laudes"><summary><h5>Laudes</h5></summary>
 <ul class="song-list">
-<li><a href="#song-himno_laudes-senor_de_nuestras_horas">Himno: 112. Señor de nuestras horas</a></li>
+<li><a href="#song-himno_laudes-senor_de_nuestras_horas">Himno: 113. Señor de nuestras horas</a></li>
 <li><a href="#song-benedictus-benedictus">Benedictus: 74. Benedictus</a></li>
 <li><a href="#song-benedictus-benedictus_latin">Benedictus: 75. Benedictus (latín)</a></li>
 <li><a href="#song-padrenuestro-padrenuestro_i">Padre Nuestro: 98. Padrenuestro I</a></li>
@@ -1661,7 +1717,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </details>
 <details class="subtag-index" id="horas-semana_iv-viernes-visperas"><summary><h5>Vísperas</h5></summary>
 <ul class="song-list">
-<li><a href="#song-himno_visperas-te_damos_gracias_senor">Himno: 114. Te damos gracias, Señor</a></li>
+<li><a href="#song-himno_visperas-te_damos_gracias_senor">Himno: 115. Te damos gracias, Señor</a></li>
 <li><a href="#song-magnificat-magnificat">Magnificat: 91. Magnificat</a></li>
 <li><a href="#song-magnificat-magnificat_canon_de_pachelbel">Magnificat: 92. Magnificat (Canon de Pachelbel)</a></li>
 <li><a href="#song-magnificat-magnificat_latin">Magnificat: 93. Magnificat (latín)</a></li>
@@ -1696,8 +1752,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="horas-completas-domingo_segundas_completas"><summary><h4>Domingo (segundas Completas)</h4></summary>
@@ -1712,8 +1768,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="horas-completas-lunes"><summary><h4>Lunes</h4></summary>
@@ -1728,8 +1784,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="horas-completas-martes"><summary><h4>Martes</h4></summary>
@@ -1744,8 +1800,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="horas-completas-miercoles"><summary><h4>Miércoles</h4></summary>
@@ -1760,8 +1816,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="horas-completas-jueves"><summary><h4>Jueves</h4></summary>
@@ -1776,8 +1832,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="horas-completas-viernes"><summary><h4>Viernes</h4></summary>
@@ -1792,11 +1848,16 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">Antífona Mariana: 72. Bajo tu amparo</a></li>
 <li><a href="#song-antifona_mariana-regina_caeli">Antífona Mariana: 105. Regina Caeli</a></li>
 <li><a href="#song-antifona_mariana-reina_del_cielo">Antífona Mariana: 106. Reina del cielo</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">Antífona Mariana: 111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">Antífona Mariana: 112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 </details>
+</details>
+<details class="tag-index" id="tag-salmos"><summary><h2>Salmos</h2></summary>
+<ul class="song-list">
+<li><a href="#song-salmo-086">110. Salmo 86</a></li>
+</ul>
 </details>
 <details class="tag-index" id="tag-formulas"><summary><h2>Fórmulas Salmódicas</h2></summary>
 <details class="subtag-index" id="tag-formulas-semitonos_2"><summary><h3>Semitonos de 2</h3></summary>
@@ -1908,7 +1969,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <ul class="song-list">
 <li><a href="#song-antifona_mariana-ave_regina_caelorum">71. Ave, Regina Caelorum</a></li>
 <li><a href="#song-antifona_mariana-bajo_tu_amparo">72. Bajo tu amparo</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">111. Salve, Reina de los cielos</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">112. Salve, Reina de los cielos</a></li>
 </ul>
 </details>
 <details class="subtag-index" id="tag-tiempos-pascua"><summary><h3>Pascua</h3></summary>
@@ -1921,7 +1982,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </details>
 <details class="tag-index" id="tag-oficio_de_lectura"><summary><h2>Oficio de lectura</h2></summary>
 <ul class="song-list">
-<li><a href="#song-te_deum-te_deum">115. Te Deum</a></li>
+<li><a href="#song-te_deum-te_deum">116. Te Deum</a></li>
 </ul>
 </details>
   <details class="tag-index" id="all-songs" open><summary><h2>All Songs</h2></summary>
@@ -2035,12 +2096,13 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <li><a href="#song-responsorio-responsorio_breve_de_adviento">107. Responsorio breve de Adviento</a></li>
 <li><a href="#song-responsorio-responsorio_breve_de_completas">108. Responsorio breve de Completas</a></li>
 <li><a href="#song-responsorio-responsorio_breve_de_completas_pascua">109. Responsorio breve de Completas (Pascua)</a></li>
-<li><a href="#song-antifona_mariana-salve_regina">110. Salve Regina</a></li>
-<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">111. Salve, Reina de los cielos</a></li>
-<li><a href="#song-himno_laudes-senor_de_nuestras_horas">112. Señor de nuestras horas</a></li>
-<li><a href="#song-himno_laudes-somos_el_pueblo_de_la_pascua">113. Somos el pueblo de la Pascua</a></li>
-<li><a href="#song-himno_visperas-te_damos_gracias_senor">114. Te damos gracias, Señor</a></li>
-<li><a href="#song-te_deum-te_deum">115. Te Deum</a></li>
+<li><a href="#song-salmo-086">110. Salmo 86</a></li>
+<li><a href="#song-antifona_mariana-salve_regina">111. Salve Regina</a></li>
+<li><a href="#song-antifona_mariana-salve_reina_de_los_cielos">112. Salve, Reina de los cielos</a></li>
+<li><a href="#song-himno_laudes-senor_de_nuestras_horas">113. Señor de nuestras horas</a></li>
+<li><a href="#song-himno_laudes-somos_el_pueblo_de_la_pascua">114. Somos el pueblo de la Pascua</a></li>
+<li><a href="#song-himno_visperas-te_damos_gracias_senor">115. Te damos gracias, Señor</a></li>
+<li><a href="#song-te_deum-te_deum">116. Te Deum</a></li>
 </ul>
 </details>
 </section>
@@ -4531,8 +4593,31 @@ K:D
 <div class="verse"><div class="line-pair"><div class="chord-line">D                                    A</div>A tus manos, Señor, encomiendo mi espíritu.</div><div class="line-pair"><div class="chord-line">G              D</div>Aleluya, aleluya.</div><div class="line-pair"><div class="chord-line">D                     A</div>Tú, el Dios leal, nos librarás.</div><div class="line-pair"><div class="chord-line">G        D</div>Aleluya, aleluya</div><div class="line-pair"><div class="chord-line">D                   A    G           D</div>Gloria al Padre, al Hijo y al Espíritu Santo.</div><div class="line-pair"><div class="chord-line">D                                    A</div>A tus manos, Señor, encomiendo mi espíritu.</div><div class="line-pair"><div class="chord-line">G              D</div>Aleluya, aleluya.</div></div>
 </div>
 </article>
+<article class="song" id="song-salmo-086" data-title="Salmo 86" style="--chars: 49">
+<h3>110. Salmo 86</h3>
+
+<div class="controls">
+  <button data-action="toggle-chords">Chords</button>
+  <div class="stepper">
+    <button data-action="transpose-down" aria-label="Transpose down">−</button>
+    <button class="transpose-value" data-action="transpose-reset" aria-label="Reset transpose">0</button>
+    <button data-action="transpose-up" aria-label="Transpose up">+</button>
+  </div>
+  <button data-action="toggle-columns">Columns</button>
+  <button data-action="session-toggle" aria-pressed="false">+ Session</button>
+</div>
+<button class="formula-pick" data-action="formula-pick">Choose fórmula…</button>
+<div class="psalm-formula"></div>
+<div class="lyrics">
+<div class="verse"><div class="lyric-line">Él la ha cimentado sobre el monte santo;</div><div class="lyric-line">y el Señor prefiere las puertas de Sión</div><div class="lyric-line">a todas las moradas de Jacob.</div></div>
+<div class="verse"><div class="lyric-line">¡Qué pregón tan glorioso para ti,</div><div class="lyric-line">ciudad de Dios!</div><div class="lyric-line">«Contaré a Egipto y a Babilonia</div><div class="lyric-line">entre mis fieles;</div><div class="lyric-line">filisteos, tirios y etíopes</div><div class="lyric-line">han nacido allí.»</div></div>
+<div class="verse"><div class="lyric-line">Se dirá de Sión: «Uno por uno</div><div class="lyric-line">todos han nacido en ella;</div><div class="lyric-line">el Altísimo en persona la ha fundado.»</div></div>
+<div class="verse"><div class="lyric-line">El Señor escribirá en el registro de los pueblos:</div><div class="lyric-line">«Éste ha nacido allí.»</div><div class="lyric-line">Y cantarán mientras danzan:</div><div class="lyric-line">«Todas mis fuentes están en ti.»</div></div>
+<div class="verse"><div class="lyric-line">Gloria al Padre, y al Hijo, y al Espíritu Santo.</div><div class="lyric-line">Como era en el principio, ahora y siempre,</div><div class="lyric-line">por los siglos de los siglos. Amén.</div></div>
+</div>
+</article>
 <article class="song" id="song-antifona_mariana-salve_regina" data-title="Salve Regina" style="--chars: 47">
-<h3>110. Salve Regina</h3>
+<h3>111. Salve Regina</h3>
 
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -4557,7 +4642,7 @@ K:C
 </div>
 </article>
 <article class="song" id="song-antifona_mariana-salve_reina_de_los_cielos" data-title="Salve, Reina de los cielos" style="--chars: 56">
-<h3>111. Salve, Reina de los cielos</h3>
+<h3>112. Salve, Reina de los cielos</h3>
 
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -4580,7 +4665,7 @@ K:F
 </div>
 </article>
 <article class="song" id="song-himno_laudes-senor_de_nuestras_horas" data-title="Señor de nuestras horas" style="--chars: 52">
-<h3>112. Señor de nuestras horas</h3>
+<h3>113. Señor de nuestras horas</h3>
 
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -4611,7 +4696,7 @@ K:F
 </div>
 </article>
 <article class="song" id="song-himno_laudes-somos_el_pueblo_de_la_pascua" data-title="Somos el pueblo de la Pascua" style="--chars: 35">
-<h3>113. Somos el pueblo de la Pascua</h3>
+<h3>114. Somos el pueblo de la Pascua</h3>
 
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -4639,7 +4724,7 @@ K:F
 </div>
 </article>
 <article class="song" id="song-himno_visperas-te_damos_gracias_senor" data-title="Te damos gracias, Señor" style="--chars: 34">
-<h3>114. Te damos gracias, Señor</h3>
+<h3>115. Te damos gracias, Señor</h3>
 
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -4666,7 +4751,7 @@ A,/ &quot;D&quot;F F &quot;G&quot;G/ F G/ &quot;A&quot;E" data-tab="2/3 2/1 2/1 
 </div>
 </article>
 <article class="song" id="song-te_deum-te_deum" data-title="Te Deum" style="--chars: 43">
-<h3>115. Te Deum</h3>
+<h3>116. Te Deum</h3>
 
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -4728,7 +4813,7 @@ K:F
 
 <!-- This book's settings (book.yaml) for the scripts below -->
 <script>
-const BOOK = {"storagePrefix": "cancionero-liturgia.", "notationSetting": true};
+const BOOK = {"storagePrefix": "cancionero-liturgia.", "notationSetting": true, "formulas": [["Semitonos de 2", [["song-semitonos_2-01-suplicante_1", "1 Suplicante 1"], ["song-semitonos_2-02-suplicante_2", "2 Suplicante 2"], ["song-semitonos_2-03-alegre_1", "3 Alegre 1"], ["song-semitonos_2-04-alegre_2", "4 Alegre 2"], ["song-semitonos_2-05-narrativo_breve", "5 Narrativo (breve)"], ["song-semitonos_2-06-alegre_3_rodrigo", "6 Alegre 3 (Rodrigo)"], ["song-semitonos_2-07-suplicante_4", "7 Suplicante 4"], ["song-semitonos_2-08-suplicante_5", "8 Suplicante 5"], ["song-semitonos_2-09-narrativo_largo", "9 Narrativo (largo)"], ["song-semitonos_2-10-alegre_4_clasico", "10 Alegre 4 (clásico)"], ["song-semitonos_2-11-alegre_5", "11 Alegre 5"], ["song-semitonos_2-12-fernando", "12 Fernando"], ["song-semitonos_2-13-pascual", "13 Pascual"], ["song-semitonos_2-14-fernando", "14 Fernando"], ["song-semitonos_2-15-rene", "15 René"], ["song-semitonos_2-16-rodrigo", "16 Rodrigo"], ["song-semitonos_2-17-bonito", "17 Bonito"], ["song-semitonos_2-18-burkina", "18 Burkina"], ["song-semitonos_2-19-rayo", "19 Rayo"], ["song-semitonos_2-20-gonzalo", "20 Gonzalo"], ["song-semitonos_2-21-narrativo", "21 Narrativo"], ["song-semitonos_2-22-alegre", "22 Alegre"], ["song-semitonos_2-23-narrativo", "23 Narrativo"], ["song-semitonos_2-24-anonimo", "24 Anónimo"], ["song-semitonos_2-25-glorioso", "25 Glorioso"], ["song-semitonos_2-26-solemne", "26 Solemne"]]], ["Semitonos de 3", [["song-semitonos_3-01-semitono_de_3", "1 Semitono de 3"]]], ["Semitonos de 4", [["song-semitonos_4-01-oh_dios_tu_eres_mi_dios", "1 Oh Dios, tú eres mi Dios"], ["song-semitonos_4-02-miserere", "2 Miserere"], ["song-semitonos_4-03-cantad_al_senor", "3 Cantad al Señor"], ["song-semitonos_4-04-cristo_cabeza_rey_de_los_pastores", "4 Cristo, cabeza, rey de los pastores"], ["song-semitonos_4-05-falso_de_2_narrativo", "5 Falso de 2 (narrativo)"], ["song-semitonos_4-06-narrativo_simple_antiguo_11", "6 Narrativo simple (antiguo 11)"], ["song-semitonos_4-07-narrativo_bonito_antiguo_9", "7 Narrativo bonito (antiguo 9)"], ["song-semitonos_4-08-emmanuel", "8 Emmanuel"], ["song-semitonos_4-09-suplicante", "9 Suplicante"], ["song-semitonos_4-10-alegre_clasico", "10 Alegre clásico"], ["song-semitonos_4-11-junto_a_los_canales_de_babilonia", "11 Junto a los canales de Babilonia"], ["song-semitonos_4-12-alegre_de_triples", "12 Alegre de triples"], ["song-semitonos_4-13-alegre_bonito", "13 Alegre bonito"], ["song-semitonos_4-14-perez_bielza", "14 Pérez-Bielza"], ["song-semitonos_4-15-lamata", "15 Lamata"], ["song-semitonos_4-16-nistalmata", "16 Nistalmata"], ["song-semitonos_4-17-silva", "17 Silva"], ["song-semitonos_4-22-laudate_dominum_omnes_gentes", "22 Laudate Dominum omnes gentes"], ["song-semitonos_4-23-fernando", "23 Fernando"], ["song-semitonos_4-24-gorgoritos", "24 Gorgoritos"]]], ["Tonos Rectos", [["song-tonos_rectos-1_en_mi-1", "1 Tono recto en Mi 1"], ["song-tonos_rectos-1_en_mi-2", "1 Tono recto en Mi 2"], ["song-tonos_rectos-1_en_mi-3", "1 Tono recto en Mi 3"], ["song-tonos_rectos-1_en_mi-4", "1 Tono recto en Mi 4"], ["song-tonos_rectos-2_en_fa-1", "2 Tono recto en Fa 1"], ["song-tonos_rectos-2_en_fa-2", "2 Tono recto en Fa 2"], ["song-tonos_rectos-2_en_fa-3", "2 Tono recto en Fa 3"], ["song-tonos_rectos-2_en_fa-4", "2 Tono recto en Fa 4"], ["song-tonos_rectos-3_en_sol-1", "3 Tono recto en Sol 1"], ["song-tonos_rectos-3_en_sol-2", "3 Tono recto en Sol 2"], ["song-tonos_rectos-3_en_sol-3", "3 Tono recto en Sol 3"], ["song-tonos_rectos-3_en_sol-4", "3 Tono recto en Sol 4"]]], ["Responsorios breves", [["song-responsorios_breves-01-responsorio_breve", "1 Responsorio breve"], ["song-responsorios_breves-02-responsorio_breve", "2 Responsorio breve"]]], ["Semitonos para Benedictus", [["song-semitonos_benedictus-01-semitono_para_benedictus", "1 Semitono para Benedictus"]]], ["Semitonos para Magnificat", [["song-semitonos_magnificat-01-semitono_para_magnificat", "1 Semitono para Magnificat"], ["song-semitonos_magnificat-02-semitono_para_magnificat", "2 Semitono para Magnificat"]]]]};
 </script>
 <!-- Scripts from web/js/, core.js first -->
 <script>
@@ -5055,6 +5140,96 @@ document.addEventListener("keydown", (event) => {
 });
 </script>
 <script>
+// Psalm fórmulas (book.yaml psalm_tags / formula_tag; only in books that use them).
+// A psalm's "Choose fórmula" button picks a semitono or tono recto from a list
+// with search; that song's staff, tab and chords are copied above the psalm and
+// follow the psalm's transposition. Remembered per psalm on this device
+// (songState "formula") and carried in shared session links (session.js).
+// Loads before session.js and transpose.js, so it checks their names exist.
+
+// The fórmulas' staff and chords as built: copied now, before transpose.js
+// rewrites any of them for their own saved transposition.
+const formulaHtml = new Map(BOOK.formulas.flatMap(([, items]) => items).map(([id]) => {
+    const song = document.getElementById(id);
+    return [id, (song.querySelector(".melody")?.outerHTML ?? "") + song.querySelector(".lyrics").outerHTML];
+}));
+
+function setFormula(psalm, id) {
+    if (!formulaHtml.has(id)) id = null;
+    songState.set(psalm, "formula", id);
+    psalm.querySelector(".formula-pick").textContent =
+        id ? `Fórmula: ${document.getElementById(id).dataset.title}` : "Choose fórmula…";
+    const box = psalm.querySelector(".psalm-formula");
+    box.innerHTML = id ? formulaHtml.get(id) : "";
+    // Not yet defined while the page loads; melody.js and transpose.js then do this themselves.
+    if (typeof melodyObserver !== "undefined") melodyObserver.observe(psalm);
+    if (typeof renderChords === "function") renderChords(psalm);
+    if (typeof renderSession === "function") renderSession();
+}
+
+songState.each("formula", (psalm, id) => {
+    if (psalm.querySelector(".formula-pick")) setFormula(psalm, id);
+});
+
+// One list for every psalm: search box, the fórmulas by group, no fórmula / cancel.
+const formulaDialog = Object.assign(document.createElement("dialog"), { className: "print-dialog formula-dialog" });
+formulaDialog.innerHTML = `<input type="search" placeholder="Search fórmulas" aria-label="Search fórmulas">
+<div class="formula-options"></div>
+<div class="dialog-buttons"><button data-formula="">No fórmula</button><button>Cancel</button></div>`;
+const formulaSearch = formulaDialog.querySelector("input");
+const formulaOptions = formulaDialog.querySelector(".formula-options");
+BOOK.formulas.forEach(([label, items]) => {
+    const group = document.createElement("section");
+    group.append(Object.assign(document.createElement("h4"), { textContent: label }));
+    items.forEach(([id, title]) => {
+        const option = Object.assign(document.createElement("button"), { textContent: title });
+        Object.assign(option.dataset, { formula: id, search: normalizeText(`${label} ${title}`) });
+        group.append(option);
+    });
+    formulaOptions.append(group);
+});
+document.body.append(formulaDialog);
+
+let formulaPsalm = null;
+
+// Every typed word must appear in the group or title: "4 glor" finds "Semitonos de 4 … Glorioso".
+formulaSearch.addEventListener("input", () => {
+    const words = normalizeText(formulaSearch.value).split(/\s+/).filter(Boolean);
+    formulaOptions.querySelectorAll("section").forEach((group) => {
+        const options = [...group.querySelectorAll("button")];
+        options.forEach((option) => { option.hidden = !words.every((word) => option.dataset.search.includes(word)); });
+        group.hidden = options.every((option) => option.hidden);
+    });
+});
+formulaSearch.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault(); // else the same Enter clicks the picker button, focused again on close
+    formulaOptions.querySelector("button:not([hidden])")?.click();
+});
+
+formulaDialog.addEventListener("click", (event) => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    if ("formula" in button.dataset) setFormula(formulaPsalm, button.dataset.formula);
+    formulaDialog.close();
+});
+
+onAction("formula-pick", (button, psalm) => {
+    formulaPsalm = psalm;
+    formulaSearch.value = "";
+    formulaSearch.dispatchEvent(new Event("input"));
+    const current = songState.get(psalm, "formula");
+    formulaOptions.querySelectorAll("button").forEach((option) => {
+        option.setAttribute("aria-pressed", option.dataset.formula === current);
+    });
+    formulaDialog.showModal();
+    // Start at the current choice (and keep phones from opening the keyboard).
+    const start = formulaOptions.querySelector('[aria-pressed="true"]') ?? formulaOptions.querySelector("button");
+    start.focus();
+    start.scrollIntoView({ block: "center" });
+});
+</script>
+<script>
 // The index sections can be folded. When a link points inside a folded
 // section, unfold it first so the jump lands on something visible.
 
@@ -5322,7 +5497,9 @@ function searchText(text) {
 const searchIndex = [...document.querySelectorAll(".song")].map((song) => {
     // Lyric lines only: chord lines would add noise ("am", "do"...). A lyric
     // under a chord line is its .line-pair's own text.
+    // A psalm's fórmula (formula.js) is a copy of another song: not the psalm's words.
     const lines = [...song.querySelectorAll(".lyric-line, .line-pair")]
+        .filter((line) => !line.closest(".psalm-formula"))
         .map((line) => (line.matches(".lyric-line")
             ? line.textContent
             : [...line.childNodes].filter((node) => node.nodeType === Node.TEXT_NODE).map((node) => node.data).join("")
@@ -5588,13 +5765,20 @@ let session = (() => {
 
 const songTitle = (id) => document.getElementById(id).dataset.title;
 
+// A psalm's chosen fórmula (formula.js): shown with it and kept in shared links.
+const sessionFormula = (id) => {
+    const formula = songState.all[id]?.formula;
+    return formula && document.getElementById(formula) ? formula : null;
+};
+const sessionLabel = (id) => songTitle(id) + (sessionFormula(id) ? ` · ${songTitle(sessionFormula(id))}` : "");
+
 function renderSession() {
     const list = document.querySelector(".session-list");
     list.replaceChildren(...session.map((id) => {
         const item = document.createElement("li");
         item.dataset.song = id;
 
-        const link = Object.assign(document.createElement("a"), { href: "#" + id, textContent: songTitle(id) });
+        const link = Object.assign(document.createElement("a"), { href: "#" + id, textContent: sessionLabel(id) });
 
         const remove = Object.assign(document.createElement("button"), { textContent: "✕" });
         Object.assign(remove.dataset, { action: "session-remove", song: id });
@@ -5657,10 +5841,11 @@ onAction("session-clear", () => {
 });
 
 // Share: a link with ?session=id1,id2 that replaces the opener's session
-// (only the session; their settings and song changes stay).
+// (only the session and the fórmulas of its psalms, id~fórmula; their other
+// settings and song changes stay).
 onAction("session-share", () => {
     const url = new URL(location.pathname, location.href);
-    url.searchParams.set("session", session.join(","));
+    url.searchParams.set("session", session.map((id) => (sessionFormula(id) ? `${id}~${sessionFormula(id)}` : id)).join(","));
     const text = `Someone shared a song session with you (${document.title})`;
     const copy = () => (navigator.clipboard?.writeText(`${text}\n${url.href}`) ?? Promise.reject())
         .then(() => alert("Link copied"), () => prompt("Copy this link:", url.href));
@@ -5673,7 +5858,12 @@ onAction("session-share", () => {
 
 const shared = new URLSearchParams(location.search).get("session");
 if (shared !== null) {
-    session = [...new Set(shared.split(","))].filter((id) => document.getElementById(id)?.classList.contains("song"));
+    const entries = shared.split(",").map((entry) => entry.split("~"));
+    entries.forEach(([id, formula]) => {
+        const psalm = document.getElementById(id);
+        if (formula && psalm?.querySelector(".formula-pick") && typeof setFormula === "function") setFormula(psalm, formula);
+    });
+    session = [...new Set(entries.map(([id]) => id))].filter((id) => document.getElementById(id)?.classList.contains("song"));
     prefs.set(SESSION_KEY, JSON.stringify(session));
     try {
         history.replaceState(null, "", location.pathname + (session.length ? "#" + session[0] : ""));

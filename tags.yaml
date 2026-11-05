@@ -11,6 +11,8 @@ misa:
     cordero: Cordero
     comunion: Comunión
     salida: Salida
+salmos:
+  label: Salmos
 formulas:
   label: Fórmulas Salmódicas
   subtags:

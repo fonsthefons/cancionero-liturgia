@@ -5,3 +5,5 @@ title: Cancionero - Liturgia de las Horas
 storage_key: cancionero-liturgia
 install_tip: banner
 url: https://fonsthefons.github.io/cancionero-liturgia/
+psalm_tags: [salmos]
+formula_tag: formulas
