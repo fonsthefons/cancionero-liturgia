@@ -32,5 +32,7 @@ tiempos:
     semana_santa: Semana Santa
     pascua: Pascua
     pentecostes: Pentecostés
+saludo_inicial:
+  label: Saludo Inicial
 oficio_de_lectura:
   label: Oficio de lectura
