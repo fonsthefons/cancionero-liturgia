@@ -1,0 +1,42 @@
+---
+title: Salmo 98
+song_tags:
+  salmos: []
+horas:
+  - semana_iii/jueves/laudes/salmo_2
+---
+
+El Señor reina, tiemblen las naciones;
+sentado sobre querubines, vacile la tierra.
+
+El Señor es grande en Sión,
+encumbrado sobre todos los pueblos.
+Reconozcan tu nombre, grande y terrible:
+Él es santo.
+
+Reinas con poder y amas la justicia,
+tú has establecido la rectitud;
+tú administras la justicia y el derecho,
+tú actúas en Jacob.
+
+Ensalzad al Señor, Dios nuestro;
+postraos ante el estrado de sus pies:
+Él es santo.
+
+Moisés y Aarón con sus sacerdotes,
+Samuel con los que invocan su nombre,
+invocaban al Señor, y él respondía.
+Dios les hablaba desde la columna de nube;
+oyeron sus mandatos y la ley que les dio.
+
+Señor, Dios nuestro, tú les respondías,
+tú eras para ellos un Dios de perdón
+y un Dios vengador de sus maldades.
+
+Ensalzad al Señor, Dios nuestro;
+postraos ante su monte santo:
+Santo es el Señor, nuestro Dios.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

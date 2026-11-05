@@ -10,7 +10,7 @@
 const CACHE_PREFIX = "cancionero-liturgia-v";
 // Hash of the manifest and icons, set by the builder: changing either changes
 // this file, so phones install the new worker and download them again.
-const CACHE = CACHE_PREFIX + "ace39d9d2e";
+const CACHE = CACHE_PREFIX + "922c69c006";
 const PAGE = "./"; // the book; every page request is answered with it
 const FILES = [PAGE, "manifest.webmanifest", "icon-180.png", "icon-512.png"];
 const NETWORK_WAIT_MS = 4000; // slow signal: show the saved copy after this

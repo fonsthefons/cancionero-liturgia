@@ -1,0 +1,53 @@
+---
+title: Salmo 40
+song_tags:
+  salmos: []
+horas:
+  - semana_i/viernes/visperas/salmo_1
+---
+
+Dichoso el que cuida del pobre y desvalido;
+en el día aciago lo pondrá a salvo el Señor.
+
+El Señor lo guarda y lo conserva en vida,
+para que sea dichoso en la tierra,
+y no lo entrega a la saña de sus enemigos.
+
+El Señor lo sostendrá en el lecho del dolor,
+calmará los dolores de su enfermedad.
+
+Yo dije: «Señor, ten misericordia,
+sáname, porque he pecado contra ti.»
+
+Mis enemigos me desean lo peor;
+«A ver si se muere y se acaba su apellido.»
+
+El que viene a verme habla con fingimiento,
+disimula su mala intención,
+y cuando sale afuera, la dice.
+
+Mis adversarios se reúnen a murmurar contra mí,
+hacen cálculos siniestros:
+«Padece un mal sin remedio,
+se acostó para no levantarse.»
+
+Incluso mi amigo, de quien yo me fiaba,
+que compartía mi pan,
+es el primero en traicionarme.
+
+Pero tú, Señor, apiádate de mí,
+haz que pueda levantarme,
+para que yo les dé su merecido.
+
+En esto conozco que me amas:
+en que mi enemigo no triunfa de mí.
+
+A mí, en cambio, me conservas la salud,
+me mantienes siempre en tu presencia.
+
+Bendito el Señor, Dios de Israel,
+ahora y por siempre. Amén, amén.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

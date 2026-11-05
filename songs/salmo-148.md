@@ -1,0 +1,56 @@
+---
+title: Salmo 148
+song_tags:
+  salmos: []
+horas:
+  - semana_iii/domingo/laudes/salmo_2
+---
+
+Alabad al Señor en el cielo,
+alabad al Señor en lo alto.
+
+Alabadlo todos sus ángeles,
+alabadlo todos sus ejércitos.
+
+Alabadlo, sol y luna;
+alabadlo, estrellas lucientes.
+
+Alabadlo, espacios celestes,
+y aguas que cuelgan en el cielo.
+
+Alaben el nombre del Señor,
+porque él lo mandó, y existieron.
+
+Les dio consistencia perpetua
+y una ley que no pasará.
+
+Alabad al Señor en la tierra,
+cetáceos y abismos del mar.
+
+Rayos, granizo, nieve y bruma,
+viento huracanado que cumple sus órdenes.
+
+Montes y todas las sierras,
+árboles frutales y cedros.
+
+Fieras y animales domésticos,
+reptiles y pájaros que vuelan.
+
+Reyes y pueblos del orbe,
+príncipes y jefes del mundo.
+
+Los jóvenes y también las doncellas,
+los viejos junto con los niños.
+
+Alaben el nombre del Señor,
+el único nombre sublime.
+
+Su majestad sobre el cielo y la tierra;
+él acrece el vigor de su pueblo.
+
+Alabanza de todos sus fieles,
+de Israel, su pueblo escogido.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

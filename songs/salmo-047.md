@@ -1,0 +1,55 @@
+---
+title: Salmo 47
+song_tags:
+  salmos: []
+horas:
+  - semana_i/jueves/laudes/salmo_2
+---
+
+Grande es el Señor y muy digno de alabanza
+en la ciudad de nuestro Dios,
+su monte santo, altura hermosa,
+alegría de toda la tierra:
+
+el monte Sión, vértice del cielo,
+ciudad del gran rey;
+entre sus palacios,
+Dios descuella como un alcázar.
+
+Mirad: los reyes se aliaron
+para atacarla juntos;
+pero, al verla, quedaron aterrados
+y huyeron despavoridos;
+
+allí los agarró un temblor
+y dolores como de parto;
+como un viento del desierto,
+que destroza las naves de Tarsis.
+
+Lo que habíamos oído lo hemos visto
+en la ciudad del Señor de los ejércitos,
+en la ciudad de nuestro Dios:
+que Dios la ha fundado para siempre.
+
+¡Oh Dios!, meditamos tu misericordia
+en medio de tu templo:
+como tu renombre, ¡oh Dios!, tu alabanza
+llega al confín de la tierra;
+
+tu diestra está llena de justicia:
+el monte Sión se alegra,
+las ciudades de Judá se gozan
+con tus sentencias.
+
+Dad la vuelta en torno a Sión,
+contando sus torreones;
+fijaos en sus baluartes,
+observad sus palacios,
+
+para poder decirle a la próxima generación:
+«Este es el Señor, nuestro Dios.»
+Él nos guiará por siempre jamás.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

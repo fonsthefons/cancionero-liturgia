@@ -1,0 +1,62 @@
+---
+title: Salmo 85
+song_tags:
+  salmos: []
+horas:
+  - completas/lunes/salmo
+  - semana_iii/miercoles/laudes/salmo_1
+---
+
+Inclina tu oído, Señor; escúchame,
+que soy un pobre desamparado;
+protege mi vida, que soy un fiel tuyo;
+salva a tu siervo, que confía en ti.
+
+Tú eres mi Dios, piedad de mí, Señor,
+que a ti te estoy llamando todo el día;
+alegra el alma de tu siervo,
+pues levanto mi alma hacia ti;
+
+porque tú, Señor, eres bueno y clemente,
+rico en misericordia con los que te invocan.
+Señor, escucha mi oración,
+atiende a la voz de mi súplica.
+
+En el día del peligro te llamo,
+y tú me escuchas.
+No tienes igual entre los dioses, Señor,
+ni hay obras como las tuyas.
+
+Todos los pueblos vendrán
+a postrarse en tu presencia, Señor;
+bendecirán tu nombre:
+«Grande eres tú, y haces maravillas;
+tú eres el único Dios.»
+
+Enséñame, Señor, tu camino,
+para que siga tu verdad;
+mantén mi corazón entero
+en el temor de tu nombre.
+
+Te alabaré de todo corazón, Dios mío;
+daré gloria a tu nombre por siempre,
+por tu grande piedad para conmigo,
+porque me salvaste del abismo profundo.
+
+Dios mío, unos soberbios se levantan contra mí,
+una banda de insolentes atenta contra mi vida,
+sin tenerte en cuenta a ti.
+
+Pero tú, Señor, Dios clemente y misericordioso,
+lento a la cólera, rico en piedad y leal,
+mírame, ten compasión de mí.
+
+Da fuerza a tu siervo,
+salva al hijo de tu esclava;
+dame una señal propicia,
+que la vean mis adversarios y se avergüencen,
+porque tú, Señor, me ayudas y consuelas.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

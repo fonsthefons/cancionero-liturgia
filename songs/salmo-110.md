@@ -1,0 +1,39 @@
+---
+title: Salmo 110
+song_tags:
+  salmos: []
+horas:
+  - semana_iii/domingo/segundas_visperas/salmo_2
+---
+
+Doy gracias al Señor de todo corazón,
+en compañía de los rectos, en la asamblea.
+Grandes son las obras del Señor,
+dignas de estudio para los que las aman.
+
+Esplendor y belleza son su obra,
+su generosidad dura por siempre;
+ha hecho maravillas memorables,
+el Señor es piadoso y clemente.
+
+Él da alimento a sus fieles,
+recordando siempre su alianza;
+mostró a su pueblo la fuerza de su poder,
+dándoles la heredad de los gentiles.
+
+Justicia y verdad son las obras de sus manos,
+todos sus preceptos merecen confianza:
+son estables para siempre jamás,
+se han de cumplir con verdad y rectitud.
+
+Envió la redención a su pueblo,
+ratificó para siempre su alianza,
+su nombre es sagrado y temible.
+
+Primicia de la sabiduría es el temor del Señor,
+tienen buen juicio los que lo practican;
+la alabanza del Señor dura por siempre.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

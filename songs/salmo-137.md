@@ -1,0 +1,39 @@
+---
+title: Salmo 137
+song_tags:
+  salmos: []
+horas:
+  - semana_iv/martes/visperas/salmo_2
+---
+
+Te doy gracias, Señor, de todo corazón;
+delante de los ángeles tañeré para ti,
+me postraré hacia tu santuario,
+daré gracias a tu nombre;
+
+por tu misericordia y tu lealtad,
+porque tu promesa supera a tu fama;
+cuando te invoqué, me escuchaste,
+acreciste el valor en mi alma.
+
+Que te den gracias, Señor, los reyes de la tierra
+al escuchar el oráculo de tu boca;
+canten los caminos del Señor,
+porque la gloria del Señor es grande.
+
+El Señor es sublime, se fija en el humilde,
+y de lejos conoce al soberbio.
+
+Cuando camino entre peligros,
+me conservas la vida;
+extiendes tu izquierda contra la ira de mi enemigo,
+y tu derecha me salva.
+
+El Señor completará sus favores conmigo:
+Señor, tu misericordia es eterna,
+no abandones la obra de tus manos.
+
+Gloria al Padre, y al Hijo, 
+y al Espíritu Santo.
+Como era en el principio, ahora y siempre, 
+por los siglos de los siglos. Amén.

@@ -1,0 +1,48 @@
+---
+title: Salmo 45
+song_tags:
+  salmos: []
+horas:
+  - semana_i/viernes/visperas/salmo_2
+---
+
+Dios es nuestro refugio y nuestra fuerza,
+poderoso defensor en el peligro.
+
+Por eso no tememos aunque tiemble la tierra
+y los montes se desplomen en el mar.
+
+Que hiervan y bramen sus olas,
+que sacudan a los montes con su furia:
+
+El Señor de los ejércitos está con nosotros,
+nuestro alcázar es el Dios de Jacob.
+
+El correr de las acequias alegra la ciudad de Dios,
+el Altísimo consagra su morada.
+
+Teniendo a Dios en medio, no vacila;
+Dios la socorre al despuntar la aurora.
+
+Los pueblos se amotinan, los reyes se rebelan;
+pero él lanza su trueno y se tambalea la tierra.
+
+El Señor de los ejércitos está con nosotros,
+nuestro alcázar es el Dios de Jacob.
+
+Venid a ver las obras del Señor,
+las maravillas que hace en la tierra:
+
+Pone fin a la guerra hasta el extremo del orbe,
+rompe los arcos, quiebra las lanzas,
+prende fuego a los escudos.
+
+«Rendíos, reconoced que yo soy Dios:
+más alto que los pueblos, más alto que la tierra.»
+
+El Señor de los ejércitos está con nosotros,
+nuestro alcázar es el Dios de Jacob.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

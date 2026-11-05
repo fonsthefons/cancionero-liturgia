@@ -1,0 +1,39 @@
+---
+title: Salmo 71 II
+song_tags:
+  salmos: []
+horas:
+  - semana_ii/jueves/visperas/salmo_2
+---
+
+Él librará al pobre que clamaba,
+al afligido que no tenía protector;
+él se apiadará del pobre y del indigente,
+y salvará la vida de los pobres;
+
+él rescatará sus vidas de la violencia,
+su sangre será preciosa a sus ojos.
+
+Que viva y que le traigan el oro de Saba;
+él intercederá por el pobre
+y lo bendecirá.
+
+Que haya trigo abundante en los campos,
+y ondee en lo alto de los montes,
+den fruto como el Líbano,
+y broten las espigas como hierba del campo.
+
+Que su nombre sea eterno,
+y su fama dure como el sol;
+que él sea la bendición de todos los pueblos,
+y lo proclamen dichoso todas las razas de la tierra.
+
+Bendito sea el Señor, Dios de Israel,
+el único que hace maravillas;
+bendito por siempre su nombre glorioso,
+que su gloria llene la tierra.
+¡Amén, amén!
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

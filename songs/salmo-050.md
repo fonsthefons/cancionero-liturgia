@@ -1,0 +1,67 @@
+---
+title: Salmo 50
+song_tags:
+  salmos: []
+horas:
+  - semana_i/viernes/laudes/salmo_1
+  - semana_ii/viernes/laudes/salmo_1
+  - semana_iii/viernes/laudes/salmo_1
+  - semana_iv/viernes/laudes/salmo_1
+---
+
+Misericordia, Dios mío, por tu bondad;
+por tu inmensa compasión borra mi culpa;
+lava del todo mi delito,
+limpia mi pecado.
+
+Pues yo reconozco mi culpa,
+tengo siempre presente mi pecado:
+contra ti, contra ti solo pequé,
+cometí la maldad que aborreces.
+
+En la sentencia tendrás razón,
+en el juicio brillará tu rectitud.
+Mira, que en la culpa nací,
+pecador me concibió mi madre.
+
+Te gusta un corazón sincero,
+y en mi interior me inculcas sabiduría.
+Rocíame con el hisopo: quedaré limpio;
+lávame: quedaré más blanco que la nieve.
+
+Hazme oír el gozo y la alegría,
+que se alegren los huesos quebrantados.
+Aparta de mi pecado tu vista,
+borra en mí toda culpa.
+
+¡Oh Dios!, crea en mí un corazón puro,
+renuévame por dentro con espíritu firme;
+no me arrojes lejos de tu rostro,
+no me quites tu santo espíritu.
+
+Devuélveme la alegría de tu salvación,
+afiánzame con espíritu generoso:
+enseñaré a los malvados tus caminos,
+los pecadores volverán a ti.
+
+Líbrame de la sangre, ¡oh Dios,
+Dios, Salvador mío!,
+y cantará mi lengua tu justicia.
+Señor, me abrirás los labios,
+y mi boca proclamará tu alabanza.
+
+Los sacrificios no te satisfacen;
+si te ofreciera un holocausto, no lo querrías.
+Mi sacrificio es un espíritu quebrantado:
+un corazón quebrantado y humillado
+tú no lo desprecias.
+
+Señor, por tu bondad, favorece a Sión,
+reconstruye las murallas de Jerusalén:
+entonces aceptarás los sacrificios rituales,
+ofrendas y holocaustos,
+sobre tu altar se inmolarán novillos.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

@@ -1,0 +1,39 @@
+---
+title: Salmo 111
+song_tags:
+  salmos: []
+horas:
+  - semana_iv/domingo/segundas_visperas/salmo_2
+---
+
+Dichoso quien teme al Señor
+y ama de corazón sus mandatos.
+Su linaje será poderoso en la tierra,
+la descendencia del justo será bendita.
+
+En su casa habrá riquezas y abundancia,
+su caridad es constante, sin falta.
+En las tinieblas brilla como una luz
+el que es justo, clemente y compasivo.
+
+Dichoso el que se apiada y presta,
+y administra rectamente sus asuntos.
+El justo jamás vacilará,
+su recuerdo será perpetuo.
+
+No temerá las malas noticias,
+su corazón está firme en el Señor.
+Su corazón está seguro, sin temor,
+hasta que vea derrotados a sus enemigos.
+
+Reparte limosna a los pobres;
+su caridad es constante, sin falta,
+y alzará la frente con dignidad.
+
+El malvado, al verlo, se irritará,
+rechinará los dientes hasta consumirse.
+La ambición del malvado fracasará.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.

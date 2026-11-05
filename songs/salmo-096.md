@@ -1,0 +1,47 @@
+---
+title: Salmo 96
+song_tags:
+  salmos: []
+horas:
+  - semana_ii/miercoles/laudes/salmo_2
+---
+
+El Señor reina, la tierra goza,
+se alegran las islas innumerables.
+Tiniebla y nube lo rodean,
+justicia y derecho sostienen su trono.
+
+Delante de él avanza fuego
+abrasando en torno a los enemigos;
+sus relámpagos deslumbran el orbe,
+y, viéndolos, la tierra se estremece.
+
+Los montes se derriten como cera
+ante el dueño de toda la tierra;
+los cielos pregonan su justicia,
+y todos los pueblos contemplan su gloria.
+
+Los que adoran estatuas se sonrojan,
+los que ponen su orgullo en los ídolos;
+ante él se postran todos los dioses.
+
+Lo oye Sión, y se alegra,
+se regocijan las ciudades de Judá
+por tus sentencias, Señor;
+
+porque tú eres, Señor,
+altísimo sobre toda la tierra,
+encumbrado sobre todos los dioses.
+
+El Señor ama al que aborrece el mal,
+protege la vida de sus fieles
+y los libra de los malvados.
+
+Amanece la luz para el justo,
+y la alegría para los rectos de corazón.
+Alegraos, justos, con el Señor,
+celebrad su santo nombre.
+
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
+Como era en el principio, ahora y siempre,
+por los siglos de los siglos. Amén.
