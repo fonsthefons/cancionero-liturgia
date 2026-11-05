@@ -33,7 +33,6 @@ El Señor completará sus favores conmigo:
 Señor, tu misericordia es eterna,
 no abandones la obra de tus manos.
 
-Gloria al Padre, y al Hijo, 
-y al Espíritu Santo.
+Gloria al Padre, y al Hijo, y al Espíritu Santo.
 Como era en el principio, ahora y siempre, 
 por los siglos de los siglos. Amén.
