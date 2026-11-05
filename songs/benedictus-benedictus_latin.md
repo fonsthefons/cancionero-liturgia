@@ -4,7 +4,7 @@ horas:
   - "*laudes/benedictus"
 melody: |
   K:G
-  D E "G"G8 A "Em"G2 | "C"G8 G "Bm"F D "Em"E2
+  D E "G"G4 A "Em"G2 | "C"G4 G "Bm"F D "Em"E2
 tab: 3/2 0/1 3/1 5/1 3/1 | 3/1 3/1 2/1 3/2 0/1
 ---
 

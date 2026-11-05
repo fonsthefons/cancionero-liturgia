@@ -4,7 +4,7 @@ horas:
   - "*visperas/magnificat"
 melody: |
   K:C
-  "C"C2 D2 E8 D C D "Am"E | D E "Dm"F8 G F E "G"D | E F "C"G8 "F"A G F E "G"D "C"E
+  "C"C2 D2 E4 D C D "Am"E | D E "Dm"F4 G F E "G"D | E F "C"G4 "F"A G F E "G"D "C"E
 tab: 1/2 3/2 0/1 3/2 1/2 3/2 0/1 | 3/2 0/1 1/1 3/1 1/1 0/1 3/2 | 0/1 1/1 3/1 5/1 3/1 1/1 0/1 3/2 0/1
 ---
 

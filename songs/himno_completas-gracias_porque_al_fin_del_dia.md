@@ -4,7 +4,7 @@ horas:
   - completas/*/himno
 melody: |
   K:D
-  "D"F8 E D "Em"E E
+  "D"F4 E D "Em"E E
 tab: 2/1 0/1 3/2 0/1 0/1
 ---
 

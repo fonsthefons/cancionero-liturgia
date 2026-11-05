@@ -1,5 +1,5 @@
 ---
-title: ¡Detente, aurora de este nuevo día
+title: ¡Detente, aurora de este nuevo día!
 horas:
   - semana_iii/miercoles/laudes/himno
 ---

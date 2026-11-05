@@ -4,7 +4,7 @@ horas:
   - "*/padre_nuestro"
 melody: |
   K:E
-  "E"E8 "B7"F/ E/ D/ "E"E
+  "E"E4 "B7"F/ E/ D/ "E"E
 tab: 0/1 2/1 0/1 4/2 0/1
 ---
 

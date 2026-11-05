@@ -4,7 +4,7 @@ horas:
   - "*laudes/benedictus"
 melody: |
   K:A
-  "F#m"F2 E F8 "E"A G F E "D"F2 | G F "A"E8 D C "E"E2 | B, C "D"D8 | "Bm"D8 C B, A, B, "C#7"C2
+  "F#m"F2 E F4 "E"A G F E "D"F2 | G F "A"E4 D C "E"E2 | B, C "D"D4 | "Bm"D4 C B, A, B, "C#7"C2
 tab: 2/1 0/1 2/1 5/1 4/1 2/1 0/1 2/1 | 4/1 2/1 0/1 3/2 2/2 0/1 | 0/2 2/2 3/2 | 3/2 2/2 0/2 2/3 0/2 2/2
 ---
 
@@ -32,15 +32,21 @@ recordando su santa alianza
 Bm                                          C#7
 y el juramento que juró a nuestro padre Abrahán.
 
-F#m                   E           D
-Para concedernos que, libres de temor,
+F#m
+Para concedernos que,
+E           D
+libres de temor,
      A                                E
 arrancados de la mano de nuestros enemigos,
-     D                               Bm                              C#7
-le sirvamos con santidad y justicia, en su presencia, todos nuestros días.
+     D
+le sirvamos con santidad y justicia,
+Bm                              C#7
+en su presencia, todos nuestros días.
 
-F#m                          E         D
-Y a ti niño, te llamarán profeta del Altísimo,
+F#m
+Y a ti niño, te llamarán
+    E         D
+profeta del Altísimo,
         A                                      E
 porque irás delante del Señor a preparar sus caminos,
      D
@@ -54,10 +60,20 @@ Por la entrañable misericordia de nuestro Dios,
 nos visitará el Sol que nace de lo alto,
      A                                                    E
 para iluminar a los que viven en tinieblas y en sombra de muerte,
-        D                 Bm                  C#7
-para guiar nuestros pasos por el camino de la paz.
+        D
+para guiar nuestros pasos
+Bm                  C#7
+por el camino de la paz.
 
-F#m                                 E     D
-Gloria al Padre, y al Hijo, y al Espíritu Santo,
-     A                            E                 D     Bm               C#7
-como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.
+F#m
+Gloria al Padre, y al Hijo,
+        E      D
+y al Espíritu Santo,
+     A
+como era en el principio,
+        E
+ahora y siempre
+         D
+por los siglos
+       Bm        C#7
+de los siglos. Amén.

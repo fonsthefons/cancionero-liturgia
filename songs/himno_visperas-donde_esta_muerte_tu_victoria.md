@@ -1,5 +1,5 @@
 ---
-title: ¿donde está muerte, tu victoria?
+title: ¿Dónde está muerte, tu victoria?
 horas:
   - semana_ii/domingo/segundas_visperas/himno
 ---

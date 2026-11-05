@@ -7,3 +7,4 @@ install_tip: banner
 url: https://fonsthefons.github.io/cancionero-liturgia/
 psalm_tags: [salmos]
 formula_tag: formulas
+fold_all_songs: true
