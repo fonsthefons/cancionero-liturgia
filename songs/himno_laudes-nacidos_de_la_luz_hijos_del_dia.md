@@ -1,6 +1,7 @@
 ---
 title: ¡Nacidos de la luz!, ¡hijos del día!
 horas:
+  - semana_ii/miercoles/laudes/himno
   - semana_iv/jueves/laudes/himno
 melody: |
   K:G
