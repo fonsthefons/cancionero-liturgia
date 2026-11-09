@@ -8,51 +8,51 @@ melody: |
 tab: 1/2 3/2 0/1 3/2 1/2 3/2 0/1 | 3/2 0/1 1/1 3/1 1/1 0/1 3/2 | 0/1 1/1 3/1 5/1 3/1 1/1 0/1 3/2 0/1
 ---
 
-     C                            Am
+     C                              Am
 Proclama mi alma la grandeza del Señor
-   Dm                           G
+     Dm                                G
 se alegra mi espíritu en Dios mi Salvador
-       C                     F  G   C
+       C                                  F-G C
 porque ha mirado la humillación de su esclava.
 
-         C                          Am
+        C                                   Am
 Desde ahora me felicitarán todas las generaciones
-        Dm                              G
+               Dm                              G
 porque el Poderoso ha hecho obras grandes por mí:
- C
+   C
 su nombre es santo
 
 y su misericordia llega a sus fieles
-           F   G   C
+           F  G          C
 de generación en generación.
 
- C
+   C
 Él hace proezas con su brazo
-                            Am
+                                Am
 dispersa a los soberbios de corazón
- Dm
+    Dm
 derriba del trono a los poderosos
-                  G
+                    G
 y enaltece a los humildes,
-        C
+           C
 a los hambrientos los colma de bienes
-                        F   G  C
+                             F-G C
 y a los ricos los despide vacíos.
 
- C                 Am
+ C                  Am
 Auxilia a Israel su siervo,
-   Dm               G
+     Dm                  G
 acordándose de la misericordia
              C
 –como lo había prometido a nuestros padres–
-                                        F   G   C
-a favor de Abraham y su descendencia por siempre.
+                                          F-G   C
+en favor de Abraham y su descendencia por siempre.
 
-        C                          Am
+          C                             Am
 Gloria al Padre y al Hijo y al Espíritu Santo
-   Dm                       G
+     Dm                           G
 como era en el principio, ahora y siempre,
-     C         F  G  C
+        C             F-G C
 por los siglos de los siglos.
 
 C   Dm  G  C

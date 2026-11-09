@@ -8,7 +8,7 @@ melody: |
 tab: 2/1 0/1 2/1 5/1 4/1 2/1 0/1 2/1 | 4/1 2/1 0/1 3/2 2/2 0/1 | 0/2 2/2 3/2 | 3/2 2/2 0/2 2/3 0/2 2/2
 ---
 
-F#m
+    F#m
 Bendito sea el Señor, Dios de Israel,
                         E          D
 porque ha visitado y redimido a su pueblo,
@@ -16,34 +16,34 @@ porque ha visitado y redimido a su pueblo,
 suscitándonos una fuerza de salvación
                         E
 en la casa de David, su siervo,
-  D
+   D
 según lo había predicho desde antiguo
 Bm                         C#7
 por boca de sus santos profetas.
 
-F#m
+      F#m
 Es la Salvación que nos libra de nuestros enemigos
-                E                D
+                E                 D
 y de la mano de todos los que nos odian;
-     A                                           E
+      A                                          E
 realizando la misericordia que tuvo con nuestros padres,
-    D
+      D
 recordando su santa alianza
 Bm                                          C#7
 y el juramento que juró a nuestro padre Abrahán.
 
-F#m
+     F#m
 Para concedernos que,
-E           D
+E            D
 libres de temor,
      A                                E
 arrancados de la mano de nuestros enemigos,
-     D
+      D
 le sirvamos con santidad y justicia,
 Bm                              C#7
 en su presencia, todos nuestros días.
 
-F#m
+    F#m
 Y a ti niño, te llamarán
     E         D
 profeta del Altísimo,
@@ -54,7 +54,7 @@ anunciando a su pueblo la salvación,
 Bm                  C#7
 el perdón de sus pecados.
 
-F#m
+    F#m
 Por la entrañable misericordia de nuestro Dios,
                         E          D
 nos visitará el Sol que nace de lo alto,
@@ -65,7 +65,7 @@ para guiar nuestros pasos
 Bm                  C#7
 por el camino de la paz.
 
-F#m
+          F#m
 Gloria al Padre, y al Hijo,
         E      D
 y al Espíritu Santo,
