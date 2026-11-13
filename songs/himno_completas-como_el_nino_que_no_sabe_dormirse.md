@@ -4,22 +4,37 @@ horas:
   - completas/jueves/himno
 ---
 
+G                   D
 Como el niño que no sabe dormirse
+      Em                    Bm
 sin cogerse a la mano de su madre,
+  C                      Bm
 así mi corazón viene a ponerse
-sobre tus manos, al caer la tarde.
+C                  D
+sobre tus manos al caer la tarde.
 
+G                D
 Como el niño que sabe que alguien vela
-su sueño de inocencia y esperanza,
+   Em                          Bm
+su sueño de inocencia y de esperanza,
+C                         Bm
 así descansará mi alma segura
-sabiendo que eres tú quien nos aguarda.
+  C                            D
+sabiendo que eres Tú quien nos aguarda.
 
+G                D
 Tú endulzarás mi última amargura,
-tú aliviarás el último cansancio,
-tú cuidarás los sueños de la noche,
-tú borrarás las huellas de mi llanto.
-
+Em              Bm
+Tú aliviarás el último cansancio,
+C               G
+Tú cuidarás los sueños de la noche,
+Am              D
+Tú borrarás las huellas de mi llanto.
+G            D
 Tú nos darás mañana nuevamente
-la antorcha de la luz y la alegría,
-y, por las horas que te traigo muertas,
-tú me darás una mañana viva. Amén.
+Em                Bm
+la antorcha de la luz y la alegría
+C                   G
+y por las horas que te traigo muertas
+Am         D           G
+Tú me darás una mañana viva.

@@ -4426,15 +4426,11 @@ K:D
     <button data-action="song-text-bigger" aria-label="Bigger text">A+</button>
   </div>
   <button data-action="session-toggle" aria-pressed="false">+ Session</button>
-  <button class="melody-play" aria-label="Play melody">▶ Melody</button>
 </div>
-<button class="formula-pick" data-action="formula-pick">Choose fórmula…</button>
-<div class="psalm-formula"></div>
 <div class="lyrics">
-<div class="verse"><div class="lyric-line">Como el niño que no sabe dormirse</div><div class="lyric-line">sin cogerse a la mano de su madre,</div><div class="lyric-line">así mi corazón viene a ponerse</div><div class="lyric-line">sobre tus manos, al caer la tarde.</div></div>
-<div class="verse"><div class="lyric-line">Como el niño que sabe que alguien vela</div><div class="lyric-line">su sueño de inocencia y esperanza,</div><div class="lyric-line">así descansará mi alma segura</div><div class="lyric-line">sabiendo que eres tú quien nos aguarda.</div></div>
-<div class="verse"><div class="lyric-line">Tú endulzarás mi última amargura,</div><div class="lyric-line">tú aliviarás el último cansancio,</div><div class="lyric-line">tú cuidarás los sueños de la noche,</div><div class="lyric-line">tú borrarás las huellas de mi llanto.</div></div>
-<div class="verse"><div class="lyric-line">Tú nos darás mañana nuevamente</div><div class="lyric-line">la antorcha de la luz y la alegría,</div><div class="lyric-line">y, por las horas que te traigo muertas,</div><div class="lyric-line">tú me darás una mañana viva. Amén.</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">G                   D</div>Como el niño que no sabe dormirse</div><div class="line-pair"><div class="chord-line">      Em                    Bm</div>sin cogerse a la mano de su madre,</div><div class="line-pair"><div class="chord-line">  C                      Bm</div>así mi corazón viene a ponerse</div><div class="line-pair"><div class="chord-line">C                  D</div>sobre tus manos al caer la tarde.</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">G                D</div>Como el niño que sabe que alguien vela</div><div class="line-pair"><div class="chord-line">   Em                          Bm</div>su sueño de inocencia y de esperanza,</div><div class="line-pair"><div class="chord-line">C                         Bm</div>así descansará mi alma segura</div><div class="line-pair"><div class="chord-line">  C                            D</div>sabiendo que eres Tú quien nos aguarda.</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">G                D</div>Tú endulzarás mi última amargura,</div><div class="line-pair"><div class="chord-line">Em              Bm</div>Tú aliviarás el último cansancio,</div><div class="line-pair"><div class="chord-line">C               G</div>Tú cuidarás los sueños de la noche,</div><div class="line-pair"><div class="chord-line">Am              D</div>Tú borrarás las huellas de mi llanto.</div><div class="line-pair"><div class="chord-line">G            D</div>Tú nos darás mañana nuevamente</div><div class="line-pair"><div class="chord-line">Em                Bm</div>la antorcha de la luz y la alegría</div><div class="line-pair"><div class="chord-line">C                   G</div>y por las horas que te traigo muertas</div><div class="line-pair"><div class="chord-line">Am         D           G</div>Tú me darás una mañana viva.</div></div>
 </div>
 </article>
 <article class="song" id="song-himno_visperas-como_una_ofrenda_de_la_tarde" data-title="Como una ofrenda de la tarde" style="--chars: 34">
@@ -12155,9 +12151,10 @@ function renderMelody(element, shift = 0, width = 380) {
         if (/^[_^=]*[A-Ga-g]/.test(path.dataset.name)) squareNotehead(path, space);
     });
 
+    melodyTunes.set(element, tune);
+    if (!element.dataset.tab) return; // staff only, no tab lines
     const tab = tabSvg(svg, element.dataset.tab, shift);
     element.append(tab);
-    melodyTunes.set(element, tune);
     // Two-digit frets on short notes can touch: draw a wider staff (it scales to fit,
     // so notes get more room) until frets on the same string clear each other.
     const boxes = [...tab.querySelectorAll("text:not(.melody-tab-label)")].map((t) => t.getBBox());
