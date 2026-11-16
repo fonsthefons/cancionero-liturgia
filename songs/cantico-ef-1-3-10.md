@@ -14,9 +14,9 @@ Padre de nuestro Señor Jesucristo,
 que nos ha bendecido en la persona de Cristo
 con toda clase de bienes espirituales y celestiales.
 
-El nos eligió en la persona de Cristo,
+Él nos eligió en la persona de Cristo,
 antes de crear el mundo,
-para que fuésemos consagrados
+para que fuésemos santos
 e irreprochables ante él por el amor.
 
 Él nos ha destinado en la persona de Cristo,
@@ -34,11 +34,11 @@ El tesoro de su gracia, sabiduría y prudencia
 ha sido un derroche para con nosotros,
 dándonos a conocer el misterio de su voluntad.
 
-Éste es el plan
+Este es el plan
 que había proyectado realizar por Cristo
 cuando llegase el momento culminante:
-hacer que todas las cosas tuviesen a Cristo por cabeza,
-las del cielo y las de la tierra.
+recapitular en Cristo todas las cosas
+del cielo y de la tierra.
 
 Gloria al Padre, y al Hijo, y al Espíritu Santo.
 Como era en el principio, ahora y siempre,
