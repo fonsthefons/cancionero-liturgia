@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (22) Alegre"
+key: Dm
 song_tags:
   formulas:
     - semitonos_2

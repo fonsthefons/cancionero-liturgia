@@ -1,5 +1,6 @@
 ---
 title: Benedictus (latín)
+key: G
 horas:
   - "*laudes/benedictus"
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: Salve, Reina de los cielos
+key: F
 horas:
   - completas/*/antifona_mariana
 song_tags:

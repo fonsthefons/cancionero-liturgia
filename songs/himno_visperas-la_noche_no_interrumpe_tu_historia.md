@@ -1,5 +1,6 @@
 ---
 title: La noche no interrumpe tu historia
+key: F
 horas:
   - semana_ii/martes/visperas/himno
 melody: |

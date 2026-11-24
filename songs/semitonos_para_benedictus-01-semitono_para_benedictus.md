@@ -1,5 +1,6 @@
 ---
 title: "Semitonos para Benedictus: (1) Semitono para Benedictus"
+key: C
 song_tags:
   formulas:
     - semitonos_benedictus

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (4) Alegre 2"
+key: G
 song_tags:
   formulas:
     - semitonos_2

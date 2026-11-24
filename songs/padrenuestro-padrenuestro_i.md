@@ -1,5 +1,6 @@
 ---
 title: Padrenuestro I
+key: E
 horas:
   - "*/padre_nuestro"
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (22) Laudate Dominum omnes gentes"
+key: D
 song_tags:
   formulas:
     - semitonos_4

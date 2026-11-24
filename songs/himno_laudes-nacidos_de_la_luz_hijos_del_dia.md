@@ -1,5 +1,6 @@
 ---
 title: ¡Nacidos de la luz!, ¡hijos del día!
+key: Em
 horas:
   - semana_iv/jueves/laudes/himno
 melody: |

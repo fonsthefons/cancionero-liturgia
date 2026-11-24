@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (1) Oh Dios, tú eres mi Dios"
+key: G
 song_tags:
   formulas:
     - semitonos_4

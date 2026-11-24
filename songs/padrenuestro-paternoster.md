@@ -1,5 +1,6 @@
 ---
 title: Paternoster
+key: C
 horas:
   - "*/padre_nuestro"
 melody: |

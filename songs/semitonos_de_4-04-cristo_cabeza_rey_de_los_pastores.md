@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (4) Cristo, cabeza, rey de los pastores"
+key: A
 song_tags:
   formulas:
     - semitonos_4

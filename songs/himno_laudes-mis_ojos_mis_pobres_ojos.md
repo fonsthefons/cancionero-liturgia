@@ -1,5 +1,6 @@
 ---
 title: Mis ojos, mis pobres ojos
+key: Em
 horas:
   - semana_i/lunes/laudes/himno
 melody: |

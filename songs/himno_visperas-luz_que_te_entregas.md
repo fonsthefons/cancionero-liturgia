@@ -1,5 +1,6 @@
 ---
 title: Luz que te entregas
+key: Em
 horas:
   - semana_ii/domingo/primeras_visperas/himno
 melody: |

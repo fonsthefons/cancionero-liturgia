@@ -1,5 +1,6 @@
 ---
 title: Magnificat
+key: C
 horas:
   - "*visperas/magnificat"
 melody: |

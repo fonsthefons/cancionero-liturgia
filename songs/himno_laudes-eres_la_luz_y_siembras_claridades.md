@@ -1,5 +1,6 @@
 ---
 title: Eres la luz y siembras claridades
+key: Am
 horas:
   - semana_iv/viernes/laudes/himno
 melody: |

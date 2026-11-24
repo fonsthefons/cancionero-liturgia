@@ -1,5 +1,6 @@
 ---
 title: Porque anochece ya
+key: Dm
 horas:
   - semana_iv/jueves/visperas/himno
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (9) Suplicante"
+key: Em
 song_tags:
   formulas:
     - semitonos_4

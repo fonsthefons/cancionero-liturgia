@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (8) Suplicante 5"
+key: Bm
 song_tags:
   formulas:
     - semitonos_2

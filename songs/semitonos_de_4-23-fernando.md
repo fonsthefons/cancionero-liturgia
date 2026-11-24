@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (23) Fernando"
+key: A
 song_tags:
   formulas:
     - semitonos_4

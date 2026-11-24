@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (5) Falso de 2 (narrativo)"
+key: Bm
 song_tags:
   formulas:
     - semitonos_4

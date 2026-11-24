@@ -1,5 +1,6 @@
 ---
 title: Padrenuestro II
+key: Dm
 horas:
   - "*/padre_nuestro"
 melody: |

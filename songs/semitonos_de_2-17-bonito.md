@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (17) Bonito"
+key: Dm
 song_tags:
   formulas:
     - semitonos_2

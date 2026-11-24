@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (10) Alegre clásico"
+key: C
 song_tags:
   formulas:
     - semitonos_4

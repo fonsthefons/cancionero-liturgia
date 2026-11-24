@@ -1,5 +1,6 @@
 ---
 title: Salve Regina
+key: C
 horas:
   - completas/*/antifona_mariana
 melody: |

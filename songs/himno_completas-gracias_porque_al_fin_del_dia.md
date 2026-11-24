@@ -1,5 +1,6 @@
 ---
 title: Gracias, porque al fin del día
+key: D
 horas:
   - completas/domingo_segundas_completas/himno
 melody: |

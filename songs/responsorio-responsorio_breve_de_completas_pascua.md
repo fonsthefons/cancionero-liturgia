@@ -1,5 +1,6 @@
 ---
 title: Responsorio breve de Completas (Pascua)
+key: D
 horas:
   - completas/*/responsorio
 song_tags:

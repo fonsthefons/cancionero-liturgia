@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (20) Gonzalo"
+key: Em
 song_tags:
   formulas:
     - semitonos_2

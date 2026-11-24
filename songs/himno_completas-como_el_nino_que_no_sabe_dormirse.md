@@ -1,5 +1,6 @@
 ---
 title: Como el niño que no sabe dormirse
+key: G
 horas:
   - completas/jueves/himno
 ---

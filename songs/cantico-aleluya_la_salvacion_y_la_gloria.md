@@ -1,5 +1,6 @@
 ---
 title: Aleluya. La salvación y la gloria
+key: D
 horas:
   - "*/domingo/segundas_visperas/cantico"
 ---

@@ -1,5 +1,6 @@
 ---
 title: Como una ofrenda de la tarde
+key: Dm
 horas:
   - semana_i/domingo/primeras_visperas/himno
 melody: |

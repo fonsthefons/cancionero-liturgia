@@ -1,5 +1,6 @@
 ---
 title: En esta luz del nuevo día
+key: Bm
 horas:
   - semana_i/martes/laudes/himno
 melody: |

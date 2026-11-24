@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (12) Alegre de triples"
+key: C
 song_tags:
   formulas:
     - semitonos_4

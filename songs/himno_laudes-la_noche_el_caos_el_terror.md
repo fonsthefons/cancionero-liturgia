@@ -1,5 +1,6 @@
 ---
 title: La noche, el caos, el terror
+key: C
 horas:
   - semana_iii/viernes/laudes/himno
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (2) Suplicante 2"
+key: Am
 song_tags:
   formulas:
     - semitonos_2

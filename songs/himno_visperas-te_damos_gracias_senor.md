@@ -1,5 +1,6 @@
 ---
 title: Te damos gracias, Señor
+key: D
 horas:
   - semana_iv/viernes/visperas/himno
 melody: |

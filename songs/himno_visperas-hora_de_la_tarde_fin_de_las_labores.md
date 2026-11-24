@@ -1,5 +1,6 @@
 ---
 title: Hora de la tarde, fin de las labores
+key: Bm
 horas:
   - semana_i/lunes/visperas/himno
 melody: |

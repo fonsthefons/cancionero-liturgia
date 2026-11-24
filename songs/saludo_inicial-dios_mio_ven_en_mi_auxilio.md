@@ -1,5 +1,6 @@
 ---
 title: Saludo inicial (Dios mío, ven en mi auxilio)
+key: Em
 horas:
   - "*/apertura"
 song_tags:

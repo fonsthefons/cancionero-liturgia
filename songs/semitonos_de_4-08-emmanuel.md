@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (8) Emmanuel"
+key: Em
 song_tags:
   formulas:
     - semitonos_4

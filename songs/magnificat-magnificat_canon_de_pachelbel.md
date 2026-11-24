@@ -1,5 +1,6 @@
 ---
 title: Magnificat (Canon de Pachelbel)
+key: C
 horas:
   - "*visperas/magnificat"
 melody: |

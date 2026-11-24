@@ -1,5 +1,6 @@
 ---
 title: Cristo, alegría del mundo
+key: D
 horas:
   - semana_iii/domingo/laudes/himno
 melody: |

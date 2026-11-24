@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (3) Cantad al Señor"
+key: D
 song_tags:
   formulas:
     - semitonos_4

@@ -1,5 +1,6 @@
 ---
 title: Magnificat (latín)
+key: G
 horas:
   - "*visperas/magnificat"
 melody: |

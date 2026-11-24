@@ -1,5 +1,6 @@
 ---
 title: Señor de nuestras horas
+key: Dm
 horas:
   - semana_iv/martes/laudes/himno
 melody: |

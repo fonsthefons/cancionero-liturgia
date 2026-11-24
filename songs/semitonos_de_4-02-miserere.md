@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (2) Miserere"
+key: Bm
 song_tags:
   formulas:
     - semitonos_4

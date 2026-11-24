@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (6) Narrativo simple (antiguo 11)"
+key: C
 song_tags:
   formulas:
     - semitonos_4

@@ -1,5 +1,6 @@
 ---
 title: Acuérdate de Jesucristo
+key: C
 horas:
   - semana_iii/domingo/primeras_visperas/himno
 melody: |

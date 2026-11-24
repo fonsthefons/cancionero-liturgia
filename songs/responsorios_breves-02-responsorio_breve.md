@@ -1,5 +1,6 @@
 ---
 title: "Responsorios breves: (2) Responsorio breve"
+key: F
 song_tags:
   formulas:
     - responsorios_breves

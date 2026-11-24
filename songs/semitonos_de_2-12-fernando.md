@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (12) Fernando"
+key: Bm
 song_tags:
   formulas:
     - semitonos_2

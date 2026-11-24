@@ -1,5 +1,6 @@
 ---
 title: Somos el pueblo de la Pascua
+key: Dm
 horas:
   - semana_ii/domingo/laudes/himno
 melody: |

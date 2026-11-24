@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (16) Rodrigo"
+key: Gm
 song_tags:
   formulas:
     - semitonos_2

@@ -1,5 +1,6 @@
 ---
 title: Bajo tu amparo
+key: Dm
 horas:
   - completas/*/antifona_mariana
 song_tags:

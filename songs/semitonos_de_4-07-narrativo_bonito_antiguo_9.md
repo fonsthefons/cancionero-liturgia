@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (7) Narrativo bonito (antiguo 9)"
+key: F
 song_tags:
   formulas:
     - semitonos_4

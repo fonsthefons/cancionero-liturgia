@@ -1,5 +1,6 @@
 ---
 title: ¿Qué ves en la noche?
+key: Dm
 horas:
   - semana_iii/domingo/segundas_visperas/himno
 melody: |

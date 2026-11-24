@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (6) Alegre 3 (Rodrigo)"
+key: E
 song_tags:
   formulas:
     - semitonos_2

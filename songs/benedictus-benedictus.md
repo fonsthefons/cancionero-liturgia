@@ -1,5 +1,6 @@
 ---
 title: Benedictus
+key: F#m
 horas:
   - "*laudes/benedictus"
 melody: |

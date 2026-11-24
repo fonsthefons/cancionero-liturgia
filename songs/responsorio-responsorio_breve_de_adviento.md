@@ -1,5 +1,6 @@
 ---
 title: Responsorio breve de Adviento
+key: D
 song_tags:
   tiempos:
     - adviento

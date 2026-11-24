@@ -1,5 +1,6 @@
 ---
 title: Cuando la luz del sol es ya poniente
+key: Bm
 melody: |
   K:D
   z/ "Bm"F/ F/ B,/ D/ F/ | "Em"E/ F/ G/ B/ | "F#"^A/c/ F

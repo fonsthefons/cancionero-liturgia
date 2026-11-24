@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (5) Narrativo (breve)"
+key: D
 song_tags:
   formulas:
     - semitonos_2

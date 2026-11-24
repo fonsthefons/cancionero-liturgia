@@ -1,5 +1,6 @@
 ---
 title: Nunc dimittis
+key: D
 horas:
   - completas/*/nunc_dimittis
 melody: |

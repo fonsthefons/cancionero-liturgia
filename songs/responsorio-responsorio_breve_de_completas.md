@@ -1,5 +1,6 @@
 ---
 title: Responsorio breve de Completas
+key: D
 horas:
   - completas/*/responsorio
 melody: |

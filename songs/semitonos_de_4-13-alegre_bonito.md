@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (13) Alegre bonito"
+key: C
 song_tags:
   formulas:
     - semitonos_4

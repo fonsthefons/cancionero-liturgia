@@ -1,5 +1,6 @@
 ---
 title: Al filo de los gallos
+key: C
 horas:
   - semana_iii/sabado/laudes/himno
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: "Tonos rectos: (2) Tono recto en Fa 1"
+key: F
 song_tags:
   formulas:
     - tonos_rectos

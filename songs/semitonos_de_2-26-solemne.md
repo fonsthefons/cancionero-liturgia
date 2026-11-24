@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (26) Solemne"
+key: Bm
 song_tags:
   formulas:
     - semitonos_2

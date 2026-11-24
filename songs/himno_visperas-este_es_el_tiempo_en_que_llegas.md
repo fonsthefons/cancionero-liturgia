@@ -1,5 +1,6 @@
 ---
 title: Este es el tiempo en que llegas
+key: Dm
 horas:
   - semana_i/jueves/visperas/himno
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: Éste es el día del Señor
+key: D
 horas:
   - semana_iii/jueves/visperas/himno
 melody: |

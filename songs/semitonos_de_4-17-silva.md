@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (17) Silva"
+key: C
 song_tags:
   formulas:
     - semitonos_4

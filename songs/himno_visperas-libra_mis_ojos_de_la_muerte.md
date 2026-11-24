@@ -1,5 +1,6 @@
 ---
 title: Libra mis ojos de la muerte
+key: Bm
 horas:
   - semana_i/martes/visperas/himno
 melody: |

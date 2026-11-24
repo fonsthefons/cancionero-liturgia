@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (13) Pascual"
+key: E
 song_tags:
   formulas:
     - semitonos_2

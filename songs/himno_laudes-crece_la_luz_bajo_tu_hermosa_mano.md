@@ -1,5 +1,6 @@
 ---
 title: Crece la luz bajo tu hermosa mano
+key: Dm
 horas:
   - semana_iv/lunes/laudes/himno
 melody: |

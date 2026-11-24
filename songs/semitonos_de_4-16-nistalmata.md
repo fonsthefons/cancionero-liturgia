@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (16) Nistalmata"
+key: C
 song_tags:
   formulas:
     - semitonos_4

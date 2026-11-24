@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (24) Gorgoritos"
+key: Cm
 song_tags:
   formulas:
     - semitonos_4

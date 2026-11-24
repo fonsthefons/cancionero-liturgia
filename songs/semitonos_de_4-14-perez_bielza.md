@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (14) Pérez-Bielza"
+key: C
 song_tags:
   formulas:
     - semitonos_4

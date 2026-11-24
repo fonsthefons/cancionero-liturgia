@@ -1,5 +1,6 @@
 ---
 title: Buenos días Señor
+key: Bm
 horas:
   - semana_i/miercoles/laudes/himno
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (18) Burkina"
+key: Dm
 song_tags:
   formulas:
     - semitonos_2

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos para Magnificat: (1) Semitono para Magnificat"
+key: Em
 song_tags:
   formulas:
     - semitonos_magnificat

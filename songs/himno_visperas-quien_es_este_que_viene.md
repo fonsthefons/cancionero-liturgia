@@ -1,5 +1,6 @@
 ---
 title: ¿Quién es éste que viene?
+key: Em
 horas:
   - semana_iii/viernes/visperas/himno
 melody: |

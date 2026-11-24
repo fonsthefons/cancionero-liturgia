@@ -1,5 +1,6 @@
 ---
 title: Alfarero del hombre
+key: F#m
 horas:
   - semana_ii/jueves/laudes/himno
 melody: |

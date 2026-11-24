@@ -1,5 +1,6 @@
 ---
 title: Quédate con nosotros
+key: Dm
 horas:
   - semana_i/domingo/segundas_visperas/himno
 melody: |

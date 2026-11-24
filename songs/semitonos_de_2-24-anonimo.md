@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (24) Anónimo"
+key: D
 song_tags:
   formulas:
     - semitonos_2

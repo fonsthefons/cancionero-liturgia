@@ -1,5 +1,6 @@
 ---
 title: Te Deum
+key: Dm
 song_tags:
   oficio_de_lectura: []
 melody: |

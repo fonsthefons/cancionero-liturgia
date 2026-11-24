@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (25) Glorioso"
+key: A
 song_tags:
   formulas:
     - semitonos_2

@@ -1,5 +1,6 @@
 ---
 title: Omnipotente, altísimo, bondadoso Señor
+key: A
 horas:
   - semana_iv/miercoles/laudes/himno
 melody: |

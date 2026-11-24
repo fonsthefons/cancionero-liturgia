@@ -1,5 +1,6 @@
 ---
 title: Alma Redemptoris Mater
+key: C
 horas:
   - completas/*/antifona_mariana
 song_tags:

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (19) Rayo"
+key: G
 song_tags:
   formulas:
     - semitonos_2

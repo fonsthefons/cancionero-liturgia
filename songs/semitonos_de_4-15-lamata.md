@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (15) Lamata"
+key: F
 song_tags:
   formulas:
     - semitonos_4

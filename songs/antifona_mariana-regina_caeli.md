@@ -1,5 +1,6 @@
 ---
 title: Regina Caeli
+key: F
 horas:
   - completas/*/antifona_mariana
 song_tags:

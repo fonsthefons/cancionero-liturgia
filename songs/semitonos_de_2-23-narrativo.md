@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (23) Narrativo"
+key: C
 song_tags:
   formulas:
     - semitonos_2

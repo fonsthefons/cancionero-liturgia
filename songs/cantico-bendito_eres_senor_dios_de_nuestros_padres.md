@@ -1,5 +1,6 @@
 ---
 title: Bendito eres, Señor, Dios de nuestros padres
+key: Em
 horas:
   - semana_ii/domingo/laudes/cantico
   - semana_iv/domingo/laudes/cantico

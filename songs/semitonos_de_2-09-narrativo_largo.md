@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 2: (9) Narrativo (largo)"
+key: A
 song_tags:
   formulas:
     - semitonos_2

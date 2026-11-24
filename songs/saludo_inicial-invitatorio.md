@@ -1,5 +1,6 @@
 ---
 title: Saludo inicial (Invitatorio)
+key: Em
 song_tags:
   saludo_inicial: []
 melody: |

@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 3: (1) Semitono de 3"
+key: F
 song_tags:
   formulas:
     - semitonos_3

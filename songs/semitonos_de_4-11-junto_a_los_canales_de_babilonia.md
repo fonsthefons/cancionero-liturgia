@@ -1,5 +1,6 @@
 ---
 title: "Semitonos de 4: (11) Junto a los canales de Babilonia"
+key: F
 song_tags:
   formulas:
     - semitonos_4
