@@ -710,8 +710,21 @@ body.drawer-open {
 .pills {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    align-items: flex-start;
+    gap: 4px 6px;
     margin: -4px 0 10px;
+}
+
+/* a tag with its subtags: a column, the subtags under it */
+.pills span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.pills span i + i {
+    margin-left: 6px;
 }
 
 .pills i {
@@ -1232,22 +1245,22 @@ body.tour-on .drawer .nav {
         display: block !important;
     }
 }
-.k0{background:hsl(0 70% 87%)}
-.k1{background:hsl(24 70% 87%)}
-.k2{background:hsl(144 70% 87%)}
-.k3{background:hsl(168 70% 87%)}
-.k4{background:hsl(192 70% 87%)}
-.k5{background:hsl(216 70% 87%)}
-.k6{background:hsl(240 70% 87%)}
-.k7{background:hsl(264 70% 87%)}
-.k8{background:hsl(96 70% 76%)}
-.k9{background:hsl(48 70% 87%)}
-.k10{background:hsl(288 70% 87%)}
-.k11{background:hsl(120 70% 76%)}
-.k12{background:hsl(144 70% 76%)}
-.k13{background:hsl(168 70% 76%)}
-.k14{background:hsl(72 70% 87%)}
-.k15{background:hsl(96 70% 87%)}
+.k0{background:hsl(0 70% 70%)}
+.k1{background:hsl(120 70% 70%)}
+.k2{background:hsl(135 70% 80%)}
+.k3{background:hsl(135 70% 87%)}
+.k4{background:hsl(105 70% 93%)}
+.k5{background:hsl(135 70% 93%)}
+.k6{background:hsl(105 70% 80%)}
+.k7{background:hsl(135 70% 80%)}
+.k8{background:hsl(105 70% 87%)}
+.k9{background:hsl(180 70% 70%)}
+.k10{background:hsl(165 70% 80%)}
+.k11{background:hsl(195 70% 87%)}
+.k12{background:hsl(195 70% 80%)}
+.k13{background:hsl(165 70% 87%)}
+.k14{background:hsl(30 70% 70%)}
+.k15{background:hsl(60 70% 70%)}
 </style>
 </head>
 <body data-chords="show" data-columns="1" data-theme="auto" data-notation="letters">
@@ -3187,7 +3200,7 @@ K:D
 <article class="song" id="song-antifona_mariana-alma_redemptoris_mater" data-title="Alma Redemptoris Mater" data-key="C" style="--chars: 47">
 <h3>7. Alma Redemptoris Mater</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k10">Adv</i><i class="k11">Nav</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k10">Adviento</i><i class="k11">Navidad</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3360,7 +3373,7 @@ K:C
 <article class="song" id="song-antifona_mariana-ave_regina_caelorum" data-title="Ave, Regina Caelorum" data-key="F" style="--chars: 28">
 <h3>13. Ave, Regina Caelorum</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k12">Cua</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k12">Cuaresma</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3390,7 +3403,7 @@ K:F
 <article class="song" id="song-antifona_mariana-bajo_tu_amparo" data-title="Bajo tu amparo" data-key="Dm" style="--chars: 37">
 <h3>14. Bajo tu amparo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Dm</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k12">Cua</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k12">Cuaresma</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3576,7 +3589,7 @@ K:D
 <article class="song" id="song-cantico-1cro-29-10-13" data-title="Cántico 1Cro 29, 10-13" style="--chars: 48">
 <h3>20. Cántico 1Cro 29, 10-13</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3606,7 +3619,7 @@ K:D
 <article class="song" id="song-cantico-1s-2-1-10" data-title="Cántico 1S 2, 1-10" style="--chars: 51">
 <h3>21. Cántico 1S 2, 1-10</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3639,7 +3652,7 @@ K:D
 <article class="song" id="song-cantico-ap-4-11-5-9-10-12" data-title="Cántico Ap 4, 11; 5, 9-10. 12" style="--chars: 53">
 <h3>22. Cántico Ap 4, 11; 5, 9-10. 12</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3668,7 +3681,7 @@ K:D
 <article class="song" id="song-cantico-ap-11-17-18-12-10b-12a" data-title="Cántico Ap 11, 17-18; 12, 10b-12a" style="--chars: 53">
 <h3>23. Cántico Ap 11, 17-18; 12, 10b-12a</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3698,7 +3711,7 @@ K:D
 <article class="song" id="song-cantico-ap-15-3-4" data-title="Cántico Ap 15, 3-4" style="--chars: 48">
 <h3>24. Cántico Ap 15, 3-4</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3726,7 +3739,7 @@ K:D
 <article class="song" id="song-cantico-ap-19-1-2-5-7" data-title="Cántico Ap 19, 1-2, 5-7" style="--chars: 55">
 <h3>25. Cántico Ap 19, 1-2, 5-7</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3756,7 +3769,7 @@ K:D
 <article class="song" id="song-cantico-col-1-12-20" data-title="Cántico Col 1, 12-20" style="--chars: 56">
 <h3>26. Cántico Col 1, 12-20</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3787,7 +3800,7 @@ K:D
 <article class="song" id="song-cantico-dn-3-26-27-29-34-41" data-title="Cántico Dn 3, 26-27. 29. 34-41" style="--chars: 50">
 <h3>27. Cántico Dn 3, 26-27. 29. 34-41</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3822,7 +3835,7 @@ K:D
 <article class="song" id="song-cantico-dn-3-52-57" data-title="Cántico Dn 3, 52-57" style="--chars: 66">
 <h3>28. Cántico Dn 3, 52-57</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3855,7 +3868,7 @@ K:D
 <article class="song" id="song-cantico-dn-3-57-88-56" data-title="Cántico Dn 3, 57-88. 56" style="--chars: 49">
 <h3>29. Cántico Dn 3, 57-88. 56</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3901,7 +3914,7 @@ K:D
 <article class="song" id="song-cantico-dt-32-1-12" data-title="Cántico Dt 32, 1-12" style="--chars: 49">
 <h3>30. Cántico Dt 32, 1-12</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3935,7 +3948,7 @@ K:D
 <article class="song" id="song-cantico-ef-1-3-10" data-title="Cántico Ef 1, 3-10" style="--chars: 52">
 <h3>31. Cántico Ef 1, 3-10</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -3966,7 +3979,7 @@ K:D
 <article class="song" id="song-cantico-ex-15-1-4-8-13-17-18" data-title="Cántico Ex 15, 1-4. 8-13. 17-18" style="--chars: 53">
 <h3>32. Cántico Ex 15, 1-4. 8-13. 17-18</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4001,7 +4014,7 @@ K:D
 <article class="song" id="song-cantico-ez-36-24-28" data-title="Cántico Ez 36, 24-28" style="--chars: 51">
 <h3>33. Cántico Ez 36, 24-28</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4031,7 +4044,7 @@ K:D
 <article class="song" id="song-cantico-flp-2-6-11" data-title="Cántico Flp 2, 6-11" style="--chars: 52">
 <h3>34. Cántico Flp 2, 6-11</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4060,7 +4073,7 @@ K:D
 <article class="song" id="song-cantico-ha-3-2-4-13a-15-19" data-title="Cántico Ha 3, 2-4. 13a. 15-19" style="--chars: 48">
 <h3>35. Cántico Ha 3, 2-4. 13a. 15-19</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4092,7 +4105,7 @@ K:D
 <article class="song" id="song-cantico-is-2-2-5" data-title="Cántico Is 2, 2-5" style="--chars: 48">
 <h3>36. Cántico Is 2, 2-5</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4124,7 +4137,7 @@ K:D
 <article class="song" id="song-cantico-is-12-1-6" data-title="Cántico Is 12, 1-6" style="--chars: 48">
 <h3>37. Cántico Is 12, 1-6</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4154,7 +4167,7 @@ K:D
 <article class="song" id="song-cantico-is-26-1-4-7-9-12" data-title="Cántico Is 26, 1-4. 7-9. 12" style="--chars: 49">
 <h3>38. Cántico Is 26, 1-4. 7-9. 12</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4186,7 +4199,7 @@ K:D
 <article class="song" id="song-cantico-is-33-13-16" data-title="Cántico Is 33, 13-16" style="--chars: 50">
 <h3>39. Cántico Is 33, 13-16</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4215,7 +4228,7 @@ K:D
 <article class="song" id="song-cantico-is-38-10-14-17-20" data-title="Cántico Is 38, 10-14. 17-20" style="--chars: 48">
 <h3>40. Cántico Is 38, 10-14. 17-20</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4250,7 +4263,7 @@ K:D
 <article class="song" id="song-cantico-is-40-10-17" data-title="Cántico Is 40, 10-17" style="--chars: 48">
 <h3>41. Cántico Is 40, 10-17</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4283,7 +4296,7 @@ K:D
 <article class="song" id="song-cantico-is-42-10-16" data-title="Cántico Is 42, 10-16" style="--chars: 48">
 <h3>42. Cántico Is 42, 10-16</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4314,7 +4327,7 @@ K:D
 <article class="song" id="song-cantico-is-45-15-25" data-title="Cántico Is 45, 15-25" style="--chars: 48">
 <h3>43. Cántico Is 45, 15-25</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4349,7 +4362,7 @@ K:D
 <article class="song" id="song-cantico-is-61-10-62-5" data-title="Cántico Is 61, 10-62, 5" style="--chars: 49">
 <h3>44. Cántico Is 61, 10-62, 5</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4382,7 +4395,7 @@ K:D
 <article class="song" id="song-cantico-is-66-10-14a" data-title="Cántico Is 66, 10-14a" style="--chars: 48">
 <h3>45. Cántico Is 66, 10-14a</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4412,7 +4425,7 @@ K:D
 <article class="song" id="song-cantico-jdt-16-2-3-15-19" data-title="Cántico Jdt 16, 2-3. 15-19" style="--chars: 51">
 <h3>46. Cántico Jdt 16, 2-3. 15-19</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4442,7 +4455,7 @@ K:D
 <article class="song" id="song-cantico-jr-14-17-21" data-title="Cántico Jr 14, 17-21" style="--chars: 54">
 <h3>47. Cántico Jr 14, 17-21</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4473,7 +4486,7 @@ K:D
 <article class="song" id="song-cantico-jr-31-10-14" data-title="Cántico Jr 31, 10-14" style="--chars: 54">
 <h3>48. Cántico Jr 31, 10-14</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4502,7 +4515,7 @@ K:D
 <article class="song" id="song-cantico-sb-9-1-6-9-11" data-title="Cántico Sb 9, 1-6. 9-11" style="--chars: 53">
 <h3>49. Cántico Sb 9, 1-6. 9-11</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4534,7 +4547,7 @@ K:D
 <article class="song" id="song-cantico-sir-36-1-7-13-16" data-title="Cántico Sir 36, 1-7. 13-16" style="--chars: 48">
 <h3>50. Cántico Sir 36, 1-7. 13-16</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4566,7 +4579,7 @@ K:D
 <article class="song" id="song-cantico-tb-13-1-10" data-title="Cántico Tb 13, 1-10" style="--chars: 48">
 <h3>51. Cántico Tb 13, 1-10</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -4600,7 +4613,7 @@ K:D
 <article class="song" id="song-cantico-tb-13-10-15-17-19" data-title="Cántico Tb 13, 10-15. 17-19" style="--chars: 53">
 <h3>52. Cántico Tb 13, 10-15. 17-19</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6169,7 +6182,7 @@ K:G
 <article class="song" id="song-antifona_mariana-regina_caeli" data-title="Regina Caeli" data-key="F" style="--chars: 40">
 <h3>103. Regina Caeli</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k13">Pas</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k13">Pascua</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6198,7 +6211,7 @@ K:F
 <article class="song" id="song-antifona_mariana-reina_del_cielo" data-title="Reina del cielo" data-key="F" style="--chars: 50">
 <h3>104. Reina del cielo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k13">Pas</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k13">Pascua</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6227,7 +6240,7 @@ K:F
 <article class="song" id="song-responsorio-responsorio_breve_de_adviento" data-title="Responsorio breve de Adviento" data-key="D" style="--chars: 48">
 <h3>105. Responsorio breve de Adviento</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k10">Adv</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k10">Adviento</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6284,7 +6297,7 @@ K:D
 <article class="song" id="song-responsorio-responsorio_breve_de_completas_pascua" data-title="Responsorio breve de Completas (Pascua)" data-key="D" style="--chars: 45">
 <h3>107. Responsorio breve de Completas (Pascua)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k13">Pas</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k13">Pascua</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6313,7 +6326,7 @@ K:D
 <article class="song" id="song-responsorios_breves-01-responsorio_breve" data-title="Responsorios breves: (1) Responsorio breve" data-key="D" style="--chars: 9">
 <h3>108. Responsorios breves: (1) Responsorio breve</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k6">Res</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k6">Responsorios breves</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6342,7 +6355,7 @@ K:D
 <article class="song" id="song-responsorios_breves-02-responsorio_breve" data-title="Responsorios breves: (2) Responsorio breve" data-key="F" style="--chars: 13">
 <h3>109. Responsorios breves: (2) Responsorio breve</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k6">Res</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k6">Responsorios breves</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6371,7 +6384,7 @@ K:F
 <article class="song" id="song-salmo-004" data-title="Salmo 4" style="--chars: 52">
 <h3>110. Salmo 4</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6403,7 +6416,7 @@ K:F
 <article class="song" id="song-salmo-005-2-10-12-13" data-title="Salmo 5, 2-10. 12-13" style="--chars: 48">
 <h3>111. Salmo 5, 2-10. 12-13</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6438,7 +6451,7 @@ K:F
 <article class="song" id="song-salmo-008" data-title="Salmo 8" style="--chars: 48">
 <h3>112. Salmo 8</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6470,7 +6483,7 @@ K:F
 <article class="song" id="song-salmo-010" data-title="Salmo 10" style="--chars: 48">
 <h3>113. Salmo 10</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6500,7 +6513,7 @@ K:F
 <article class="song" id="song-salmo-014" data-title="Salmo 14" style="--chars: 48">
 <h3>114. Salmo 14</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6531,7 +6544,7 @@ K:F
 <article class="song" id="song-salmo-015" data-title="Salmo 15" style="--chars: 48">
 <h3>115. Salmo 15</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6563,7 +6576,7 @@ K:F
 <article class="song" id="song-salmo-018-a" data-title="Salmo 18 A" style="--chars: 48">
 <h3>116. Salmo 18 A</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6593,7 +6606,7 @@ K:F
 <article class="song" id="song-salmo-019" data-title="Salmo 19" style="--chars: 49">
 <h3>117. Salmo 19</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6626,7 +6639,7 @@ K:F
 <article class="song" id="song-salmo-020-2-8-14" data-title="Salmo 20, 2-8. 14" style="--chars: 49">
 <h3>118. Salmo 20, 2-8. 14</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6656,7 +6669,7 @@ K:F
 <article class="song" id="song-salmo-023" data-title="Salmo 23" style="--chars: 48">
 <h3>119. Salmo 23</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6690,7 +6703,7 @@ K:F
 <article class="song" id="song-salmo-026-i" data-title="Salmo 26 I" style="--chars: 48">
 <h3>120. Salmo 26 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6722,7 +6735,7 @@ K:F
 <article class="song" id="song-salmo-026-ii" data-title="Salmo 26 II" style="--chars: 48">
 <h3>121. Salmo 26 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6756,7 +6769,7 @@ K:F
 <article class="song" id="song-salmo-028" data-title="Salmo 28" style="--chars: 48">
 <h3>122. Salmo 28</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6789,7 +6802,7 @@ K:F
 <article class="song" id="song-salmo-029" data-title="Salmo 29" style="--chars: 49">
 <h3>123. Salmo 29</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6822,7 +6835,7 @@ K:F
 <article class="song" id="song-salmo-030-2-6" data-title="Salmo 30, 2-6" style="--chars: 48">
 <h3>124. Salmo 30, 2-6</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6852,7 +6865,7 @@ K:F
 <article class="song" id="song-salmo-031" data-title="Salmo 31" style="--chars: 55">
 <h3>125. Salmo 31</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6887,7 +6900,7 @@ K:F
 <article class="song" id="song-salmo-032" data-title="Salmo 32" style="--chars: 49">
 <h3>126. Salmo 32</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6925,7 +6938,7 @@ K:F
 <article class="song" id="song-salmo-035" data-title="Salmo 35" style="--chars: 50">
 <h3>127. Salmo 35</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6958,7 +6971,7 @@ K:F
 <article class="song" id="song-salmo-040" data-title="Salmo 40" style="--chars: 48">
 <h3>128. Salmo 40</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -6996,7 +7009,7 @@ K:F
 <article class="song" id="song-salmo-041" data-title="Salmo 41" style="--chars: 48">
 <h3>129. Salmo 41</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7033,7 +7046,7 @@ K:F
 <article class="song" id="song-salmo-042" data-title="Salmo 42" style="--chars: 48">
 <h3>130. Salmo 42</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7064,7 +7077,7 @@ K:F
 <article class="song" id="song-salmo-044-i" data-title="Salmo 44 I" style="--chars: 53">
 <h3>131. Salmo 44 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7095,7 +7108,7 @@ K:F
 <article class="song" id="song-salmo-044-ii" data-title="Salmo 44 II" style="--chars: 48">
 <h3>132. Salmo 44 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7125,7 +7138,7 @@ K:F
 <article class="song" id="song-salmo-045" data-title="Salmo 45" style="--chars: 51">
 <h3>133. Salmo 45</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7163,7 +7176,7 @@ K:F
 <article class="song" id="song-salmo-046" data-title="Salmo 46" style="--chars: 48">
 <h3>134. Salmo 46</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7194,7 +7207,7 @@ K:F
 <article class="song" id="song-salmo-047" data-title="Salmo 47" style="--chars: 48">
 <h3>135. Salmo 47</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7229,7 +7242,7 @@ K:F
 <article class="song" id="song-salmo-048-i" data-title="Salmo 48 I" style="--chars: 48">
 <h3>136. Salmo 48 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7262,7 +7275,7 @@ K:F
 <article class="song" id="song-salmo-048-ii" data-title="Salmo 48 II" style="--chars: 48">
 <h3>137. Salmo 48 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7294,7 +7307,7 @@ K:F
 <article class="song" id="song-salmo-050" data-title="Salmo 50" style="--chars: 48">
 <h3>138. Salmo 50</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7330,7 +7343,7 @@ K:F
 <article class="song" id="song-salmo-056" data-title="Salmo 56" style="--chars: 48">
 <h3>139. Salmo 56</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7364,7 +7377,7 @@ K:F
 <article class="song" id="song-salmo-061" data-title="Salmo 61" style="--chars: 48">
 <h3>140. Salmo 61</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7400,7 +7413,7 @@ K:F
 <article class="song" id="song-salmo-062-2-9" data-title="Salmo 62, 2-9" style="--chars: 48">
 <h3>141. Salmo 62, 2-9</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7430,7 +7443,7 @@ K:F
 <article class="song" id="song-salmo-064" data-title="Salmo 64" style="--chars: 48">
 <h3>142. Salmo 64</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7465,7 +7478,7 @@ K:F
 <article class="song" id="song-salmo-066" data-title="Salmo 66" style="--chars: 48">
 <h3>143. Salmo 66</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7496,7 +7509,7 @@ K:F
 <article class="song" id="song-salmo-071-i" data-title="Salmo 71 I" style="--chars: 48">
 <h3>144. Salmo 71 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7529,7 +7542,7 @@ K:F
 <article class="song" id="song-salmo-071-ii" data-title="Salmo 71 II" style="--chars: 52">
 <h3>145. Salmo 71 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7561,7 +7574,7 @@ K:F
 <article class="song" id="song-salmo-076" data-title="Salmo 76" style="--chars: 48">
 <h3>146. Salmo 76</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7599,7 +7612,7 @@ K:F
 <article class="song" id="song-salmo-079" data-title="Salmo 79" style="--chars: 50">
 <h3>147. Salmo 79</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7636,7 +7649,7 @@ K:F
 <article class="song" id="song-salmo-080" data-title="Salmo 80" style="--chars: 48">
 <h3>148. Salmo 80</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7672,7 +7685,7 @@ K:F
 <article class="song" id="song-salmo-083" data-title="Salmo 83" style="--chars: 48">
 <h3>149. Salmo 83</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7706,7 +7719,7 @@ K:F
 <article class="song" id="song-salmo-084" data-title="Salmo 84" style="--chars: 48">
 <h3>150. Salmo 84</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7739,7 +7752,7 @@ K:F
 <article class="song" id="song-salmo-085" data-title="Salmo 85" style="--chars: 48">
 <h3>151. Salmo 85</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7775,7 +7788,7 @@ K:F
 <article class="song" id="song-salmo-086" data-title="Salmo 86" style="--chars: 49">
 <h3>152. Salmo 86</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7805,7 +7818,7 @@ K:F
 <article class="song" id="song-salmo-087" data-title="Salmo 87" style="--chars: 48">
 <h3>153. Salmo 87</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7841,7 +7854,7 @@ K:F
 <article class="song" id="song-salmo-089" data-title="Salmo 89" style="--chars: 49">
 <h3>154. Salmo 89</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7877,7 +7890,7 @@ K:F
 <article class="song" id="song-salmo-090" data-title="Salmo 90" style="--chars: 48">
 <h3>155. Salmo 90</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7912,7 +7925,7 @@ K:F
 <article class="song" id="song-salmo-091" data-title="Salmo 91" style="--chars: 48">
 <h3>156. Salmo 91</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7944,7 +7957,7 @@ K:F
 <article class="song" id="song-salmo-092" data-title="Salmo 92" style="--chars: 48">
 <h3>157. Salmo 92</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -7975,7 +7988,7 @@ K:F
 <article class="song" id="song-salmo-095" data-title="Salmo 95" style="--chars: 51">
 <h3>158. Salmo 95</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8008,7 +8021,7 @@ K:F
 <article class="song" id="song-salmo-096" data-title="Salmo 96" style="--chars: 48">
 <h3>159. Salmo 96</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8042,7 +8055,7 @@ K:F
 <article class="song" id="song-salmo-097" data-title="Salmo 97" style="--chars: 48">
 <h3>160. Salmo 97</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8074,7 +8087,7 @@ K:F
 <article class="song" id="song-salmo-098" data-title="Salmo 98" style="--chars: 48">
 <h3>161. Salmo 98</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8107,7 +8120,7 @@ K:F
 <article class="song" id="song-salmo-099" data-title="Salmo 99" style="--chars: 48">
 <h3>162. Salmo 99</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8137,7 +8150,7 @@ K:F
 <article class="song" id="song-salmo-100" data-title="Salmo 100" style="--chars: 48">
 <h3>163. Salmo 100</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8170,7 +8183,7 @@ K:F
 <article class="song" id="song-salmo-107" data-title="Salmo 107" style="--chars: 48">
 <h3>164. Salmo 107</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8204,7 +8217,7 @@ K:F
 <article class="song" id="song-salmo-109-1-5-7" data-title="Salmo 109, 1-5. 7" style="--chars: 48">
 <h3>165. Salmo 109, 1-5. 7</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8236,7 +8249,7 @@ K:F
 <article class="song" id="song-salmo-110" data-title="Salmo 110" style="--chars: 48">
 <h3>166. Salmo 110</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8268,7 +8281,7 @@ K:F
 <article class="song" id="song-salmo-111" data-title="Salmo 111" style="--chars: 48">
 <h3>167. Salmo 111</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8300,7 +8313,7 @@ K:F
 <article class="song" id="song-salmo-112" data-title="Salmo 112" style="--chars: 48">
 <h3>168. Salmo 112</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8329,7 +8342,7 @@ K:F
 <article class="song" id="song-salmo-113-a" data-title="Salmo 113 A" style="--chars: 49">
 <h3>169. Salmo 113 A</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8359,7 +8372,7 @@ K:F
 <article class="song" id="song-salmo-113-b" data-title="Salmo 113 B" style="--chars: 50">
 <h3>170. Salmo 113 B</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8393,7 +8406,7 @@ K:F
 <article class="song" id="song-salmo-114" data-title="Salmo 114" style="--chars: 48">
 <h3>171. Salmo 114</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8424,7 +8437,7 @@ K:F
 <article class="song" id="song-salmo-115" data-title="Salmo 115" style="--chars: 48">
 <h3>172. Salmo 115</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8454,7 +8467,7 @@ K:F
 <article class="song" id="song-salmo-116" data-title="Salmo 116" style="--chars: 48">
 <h3>173. Salmo 116</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8482,7 +8495,7 @@ K:F
 <article class="song" id="song-salmo-117" data-title="Salmo 117" style="--chars: 48">
 <h3>174. Salmo 117</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8528,7 +8541,7 @@ K:F
 <article class="song" id="song-salmo-118-105-112" data-title="Salmo 118, 105-112" style="--chars: 48">
 <h3>175. Salmo 118, 105-112</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8557,7 +8570,7 @@ K:F
 <article class="song" id="song-salmo-118-145-152" data-title="Salmo 118, 145-152" style="--chars: 49">
 <h3>176. Salmo 118, 145-152</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8586,7 +8599,7 @@ K:F
 <article class="song" id="song-salmo-120" data-title="Salmo 120" style="--chars: 48">
 <h3>177. Salmo 120</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8616,7 +8629,7 @@ K:F
 <article class="song" id="song-salmo-121" data-title="Salmo 121" style="--chars: 48">
 <h3>178. Salmo 121</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8647,7 +8660,7 @@ K:F
 <article class="song" id="song-salmo-122" data-title="Salmo 122" style="--chars: 48">
 <h3>179. Salmo 122</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8676,7 +8689,7 @@ K:F
 <article class="song" id="song-salmo-123" data-title="Salmo 123" style="--chars: 48">
 <h3>180. Salmo 123</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8706,7 +8719,7 @@ K:F
 <article class="song" id="song-salmo-124" data-title="Salmo 124" style="--chars: 51">
 <h3>181. Salmo 124</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8736,7 +8749,7 @@ K:F
 <article class="song" id="song-salmo-125" data-title="Salmo 125" style="--chars: 48">
 <h3>182. Salmo 125</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8766,7 +8779,7 @@ K:F
 <article class="song" id="song-salmo-126" data-title="Salmo 126" style="--chars: 48">
 <h3>183. Salmo 126</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8796,7 +8809,7 @@ K:F
 <article class="song" id="song-salmo-129" data-title="Salmo 129" style="--chars: 48">
 <h3>184. Salmo 129</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8826,7 +8839,7 @@ K:F
 <article class="song" id="song-salmo-130" data-title="Salmo 130" style="--chars: 48">
 <h3>185. Salmo 130</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8854,7 +8867,7 @@ K:F
 <article class="song" id="song-salmo-131-i" data-title="Salmo 131 I" style="--chars: 48">
 <h3>186. Salmo 131 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8884,7 +8897,7 @@ K:F
 <article class="song" id="song-salmo-131-ii" data-title="Salmo 131 II" style="--chars: 48">
 <h3>187. Salmo 131 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8915,7 +8928,7 @@ K:F
 <article class="song" id="song-salmo-133" data-title="Salmo 133" style="--chars: 48">
 <h3>188. Salmo 133</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8944,7 +8957,7 @@ K:F
 <article class="song" id="song-salmo-134-1-12" data-title="Salmo 134, 1-12" style="--chars: 48">
 <h3>189. Salmo 134, 1-12</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -8976,7 +8989,7 @@ K:F
 <article class="song" id="song-salmo-134-i" data-title="Salmo 134 I" style="--chars: 48">
 <h3>190. Salmo 134 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9008,7 +9021,7 @@ K:F
 <article class="song" id="song-salmo-134-ii" data-title="Salmo 134 II" style="--chars: 48">
 <h3>191. Salmo 134 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9039,7 +9052,7 @@ K:F
 <article class="song" id="song-salmo-135-i" data-title="Salmo 135 I" style="--chars: 48">
 <h3>192. Salmo 135 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9074,7 +9087,7 @@ K:F
 <article class="song" id="song-salmo-135-ii" data-title="Salmo 135 II" style="--chars: 48">
 <h3>193. Salmo 135 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9117,7 +9130,7 @@ K:F
 <article class="song" id="song-salmo-136-1-6" data-title="Salmo 136, 1-6" style="--chars: 48">
 <h3>194. Salmo 136, 1-6</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9147,7 +9160,7 @@ K:F
 <article class="song" id="song-salmo-137" data-title="Salmo 137" style="--chars: 51">
 <h3>195. Salmo 137</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9179,7 +9192,7 @@ K:F
 <article class="song" id="song-salmo-138-1-18-23-24" data-title="Salmo 138, 1-18. 23-24" style="--chars: 48">
 <h3>196. Salmo 138, 1-18. 23-24</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9210,7 +9223,7 @@ K:F
 <article class="song" id="song-salmo-138-ii" data-title="Salmo 138 II" style="--chars: 48">
 <h3>197. Salmo 138 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9240,7 +9253,7 @@ K:F
 <article class="song" id="song-salmo-140-1-9" data-title="Salmo 140, 1-9" style="--chars: 55">
 <h3>198. Salmo 140, 1-9</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9271,7 +9284,7 @@ K:F
 <article class="song" id="song-salmo-141" data-title="Salmo 141" style="--chars: 48">
 <h3>199. Salmo 141</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9303,7 +9316,7 @@ K:F
 <article class="song" id="song-salmo-142-1-11" data-title="Salmo 142, 1-11" style="--chars: 48">
 <h3>200. Salmo 142, 1-11</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9336,7 +9349,7 @@ K:F
 <article class="song" id="song-salmo-143-1-10" data-title="Salmo 143, 1-10" style="--chars: 49">
 <h3>201. Salmo 143, 1-10</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9368,7 +9381,7 @@ K:F
 <article class="song" id="song-salmo-143-i" data-title="Salmo 143 I" style="--chars: 49">
 <h3>202. Salmo 143 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9399,7 +9412,7 @@ K:F
 <article class="song" id="song-salmo-143-ii" data-title="Salmo 143 II" style="--chars: 48">
 <h3>203. Salmo 143 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9430,7 +9443,7 @@ K:F
 <article class="song" id="song-salmo-144-i" data-title="Salmo 144 I" style="--chars: 48">
 <h3>204. Salmo 144 I</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9463,7 +9476,7 @@ K:F
 <article class="song" id="song-salmo-144-ii" data-title="Salmo 144 II" style="--chars: 48">
 <h3>205. Salmo 144 II</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9494,7 +9507,7 @@ K:F
 <article class="song" id="song-salmo-145" data-title="Salmo 145" style="--chars: 48">
 <h3>206. Salmo 145</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9527,7 +9540,7 @@ K:F
 <article class="song" id="song-salmo-146" data-title="Salmo 146" style="--chars: 48">
 <h3>207. Salmo 146</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9559,7 +9572,7 @@ K:F
 <article class="song" id="song-salmo-147" data-title="Salmo 147" style="--chars: 48">
 <h3>208. Salmo 147</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9589,7 +9602,7 @@ K:F
 <article class="song" id="song-salmo-148" data-title="Salmo 148" style="--chars: 48">
 <h3>209. Salmo 148</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9630,7 +9643,7 @@ K:F
 <article class="song" id="song-salmo-149" data-title="Salmo 149" style="--chars: 49">
 <h3>210. Salmo 149</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9661,7 +9674,7 @@ K:F
 <article class="song" id="song-salmo-150" data-title="Salmo 150" style="--chars: 48">
 <h3>211. Salmo 150</h3>
 
-<p class="pills"><i class="k0">Sal</i></p>
+<p class="pills"><i class="k0">Salmos</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9693,7 +9706,7 @@ K:F
 <article class="song" id="song-saludo_inicial-dios_mio_ven_en_mi_auxilio" data-title="Saludo inicial (Dios mío, ven en mi auxilio)" data-key="Em" style="--chars: 46">
 <h3>212. Saludo inicial (Dios mío, ven en mi auxilio)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k14">Sal</i></p>
+<p class="pills"><i class="k14">Saludo Inicial</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9726,7 +9739,7 @@ L:1/4
 <article class="song" id="song-saludo_inicial-invitatorio" data-title="Saludo inicial (Invitatorio)" data-key="Em" style="--chars: 38">
 <h3>213. Saludo inicial (Invitatorio)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k14">Sal</i></p>
+<p class="pills"><i class="k14">Saludo Inicial</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9787,7 +9800,7 @@ K:C
 <article class="song" id="song-antifona_mariana-salve_reina_de_los_cielos" data-title="Salve, Reina de los cielos" data-key="F" style="--chars: 56">
 <h3>215. Salve, Reina de los cielos</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k9">Tie</i><i class="k12">Cua</i></p>
+<p class="pills"><span><i class="k9">Tiempos litúrgicos</i><i class="k12">Cuaresma</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9817,7 +9830,7 @@ K:F
 <article class="song" id="song-semitonos_de_2-01-suplicante_1" data-title="Semitonos de 2: (1) Suplicante 1" data-key="Em" style="--chars: 14">
 <h3>216. Semitonos de 2: (1) Suplicante 1</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9846,7 +9859,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-02-suplicante_2" data-title="Semitonos de 2: (2) Suplicante 2" data-key="Am" style="--chars: 15">
 <h3>217. Semitonos de 2: (2) Suplicante 2</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Am</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9875,7 +9888,7 @@ K:C
 <article class="song" id="song-semitonos_de_2-03-alegre_1" data-title="Semitonos de 2: (3) Alegre 1" data-key="G" style="--chars: 11">
 <h3>218. Semitonos de 2: (3) Alegre 1</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9904,7 +9917,7 @@ K:G
 <article class="song" id="song-semitonos_de_2-04-alegre_2" data-title="Semitonos de 2: (4) Alegre 2" data-key="G" style="--chars: 12">
 <h3>219. Semitonos de 2: (4) Alegre 2</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9933,7 +9946,7 @@ K:G
 <article class="song" id="song-semitonos_de_2-05-narrativo_breve" data-title="Semitonos de 2: (5) Narrativo (breve)" data-key="D" style="--chars: 11">
 <h3>220. Semitonos de 2: (5) Narrativo (breve)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9962,7 +9975,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-06-alegre_3_rodrigo" data-title="Semitonos de 2: (6) Alegre 3 (Rodrigo)" data-key="E" style="--chars: 12">
 <h3>221. Semitonos de 2: (6) Alegre 3 (Rodrigo)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: E</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -9991,7 +10004,7 @@ K:E
 <article class="song" id="song-semitonos_de_2-07-suplicante_4" data-title="Semitonos de 2: (7) Suplicante 4" data-key="Bm" style="--chars: 14">
 <h3>222. Semitonos de 2: (7) Suplicante 4</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10020,7 +10033,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-08-suplicante_5" data-title="Semitonos de 2: (8) Suplicante 5" data-key="Bm" style="--chars: 13">
 <h3>223. Semitonos de 2: (8) Suplicante 5</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10049,7 +10062,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-09-narrativo_largo" data-title="Semitonos de 2: (9) Narrativo (largo)" data-key="A" style="--chars: 13">
 <h3>224. Semitonos de 2: (9) Narrativo (largo)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: A</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10078,7 +10091,7 @@ K:A
 <article class="song" id="song-semitonos_de_2-10-alegre_4_clasico" data-title="Semitonos de 2: (10) Alegre 4 (clásico)" data-key="C" style="--chars: 14">
 <h3>225. Semitonos de 2: (10) Alegre 4 (clásico)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10107,7 +10120,7 @@ K:C
 <article class="song" id="song-semitonos_de_2-11-alegre_5" data-title="Semitonos de 2: (11) Alegre 5" data-key="D" style="--chars: 10">
 <h3>226. Semitonos de 2: (11) Alegre 5</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10136,7 +10149,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-12-fernando" data-title="Semitonos de 2: (12) Fernando" data-key="Bm" style="--chars: 12">
 <h3>227. Semitonos de 2: (12) Fernando</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10165,7 +10178,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-13-pascual" data-title="Semitonos de 2: (13) Pascual" data-key="E" style="--chars: 10">
 <h3>228. Semitonos de 2: (13) Pascual</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: E</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10194,7 +10207,7 @@ K:E
 <article class="song" id="song-semitonos_de_2-14-fernando" data-title="Semitonos de 2: (14) Fernando" data-key="C" style="--chars: 13">
 <h3>229. Semitonos de 2: (14) Fernando</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10223,7 +10236,7 @@ K:C
 <article class="song" id="song-semitonos_de_2-15-rene" data-title="Semitonos de 2: (15) René" data-key="D" style="--chars: 12">
 <h3>230. Semitonos de 2: (15) René</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10252,7 +10265,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-16-rodrigo" data-title="Semitonos de 2: (16) Rodrigo" data-key="Gm" style="--chars: 12">
 <h3>231. Semitonos de 2: (16) Rodrigo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Gm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10281,7 +10294,7 @@ K:Bb
 <article class="song" id="song-semitonos_de_2-17-bonito" data-title="Semitonos de 2: (17) Bonito" data-key="Dm" style="--chars: 12">
 <h3>232. Semitonos de 2: (17) Bonito</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Dm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10310,7 +10323,7 @@ K:F
 <article class="song" id="song-semitonos_de_2-18-burkina" data-title="Semitonos de 2: (18) Burkina" data-key="Dm" style="--chars: 12">
 <h3>233. Semitonos de 2: (18) Burkina</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Dm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10339,7 +10352,7 @@ K:C
 <article class="song" id="song-semitonos_de_2-19-rayo" data-title="Semitonos de 2: (19) Rayo" data-key="G" style="--chars: 13">
 <h3>234. Semitonos de 2: (19) Rayo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10368,7 +10381,7 @@ K:G
 <article class="song" id="song-semitonos_de_2-20-gonzalo" data-title="Semitonos de 2: (20) Gonzalo" data-key="Em" style="--chars: 12">
 <h3>235. Semitonos de 2: (20) Gonzalo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10397,7 +10410,7 @@ K:G
 <article class="song" id="song-semitonos_de_2-21-narrativo" data-title="Semitonos de 2: (21) Narrativo" data-key="F" style="--chars: 16">
 <h3>236. Semitonos de 2: (21) Narrativo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10426,7 +10439,7 @@ K:F
 <article class="song" id="song-semitonos_de_2-22-alegre" data-title="Semitonos de 2: (22) Alegre" data-key="Dm" style="--chars: 12">
 <h3>237. Semitonos de 2: (22) Alegre</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Dm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10455,7 +10468,7 @@ K:F
 <article class="song" id="song-semitonos_de_2-23-narrativo" data-title="Semitonos de 2: (23) Narrativo" data-key="C" style="--chars: 15">
 <h3>238. Semitonos de 2: (23) Narrativo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10484,7 +10497,7 @@ K:C
 <article class="song" id="song-semitonos_de_2-24-anonimo" data-title="Semitonos de 2: (24) Anónimo" data-key="D" style="--chars: 12">
 <h3>239. Semitonos de 2: (24) Anónimo</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10513,7 +10526,7 @@ K:D
 <article class="song" id="song-semitonos_de_2-25-glorioso" data-title="Semitonos de 2: (25) Glorioso" data-key="A" style="--chars: 12">
 <h3>240. Semitonos de 2: (25) Glorioso</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: A</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10542,7 +10555,7 @@ K:A
 <article class="song" id="song-semitonos_de_2-26-solemne" data-title="Semitonos de 2: (26) Solemne" data-key="Bm" style="--chars: 17">
 <h3>241. Semitonos de 2: (26) Solemne</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k2">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k2">Semitonos de 2</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10571,7 +10584,7 @@ K:D
 <article class="song" id="song-semitonos_de_3-01-semitono_de_3" data-title="Semitonos de 3: (1) Semitono de 3" data-key="F" style="--chars: 25">
 <h3>242. Semitonos de 3: (1) Semitono de 3</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k3">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k3">Semitonos de 3</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10600,7 +10613,7 @@ K:F
 <article class="song" id="song-semitonos_de_4-01-oh_dios_tu_eres_mi_dios" data-title="Semitonos de 4: (1) Oh Dios, tú eres mi Dios" data-key="G" style="--chars: 19">
 <h3>243. Semitonos de 4: (1) Oh Dios, tú eres mi Dios</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10629,7 +10642,7 @@ K:G
 <article class="song" id="song-semitonos_de_4-02-miserere" data-title="Semitonos de 4: (2) Miserere" data-key="Bm" style="--chars: 28">
 <h3>244. Semitonos de 4: (2) Miserere</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10658,7 +10671,7 @@ K:D
 <article class="song" id="song-semitonos_de_4-03-cantad_al_senor" data-title="Semitonos de 4: (3) Cantad al Señor" data-key="D" style="--chars: 18">
 <h3>245. Semitonos de 4: (3) Cantad al Señor</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10687,7 +10700,7 @@ K:D
 <article class="song" id="song-semitonos_de_4-04-cristo_cabeza_rey_de_los_pastores" data-title="Semitonos de 4: (4) Cristo, cabeza, rey de los pastores" data-key="A" style="--chars: 24">
 <h3>246. Semitonos de 4: (4) Cristo, cabeza, rey de los pastores</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: A</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10716,7 +10729,7 @@ K:A
 <article class="song" id="song-semitonos_de_4-05-falso_de_2_narrativo" data-title="Semitonos de 4: (5) Falso de 2 (narrativo)" data-key="Bm" style="--chars: 27">
 <h3>247. Semitonos de 4: (5) Falso de 2 (narrativo)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10745,7 +10758,7 @@ K:D
 <article class="song" id="song-semitonos_de_4-06-narrativo_simple_antiguo_11" data-title="Semitonos de 4: (6) Narrativo simple (antiguo 11)" data-key="C" style="--chars: 28">
 <h3>248. Semitonos de 4: (6) Narrativo simple (antiguo 11)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10774,7 +10787,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-07-narrativo_bonito_antiguo_9" data-title="Semitonos de 4: (7) Narrativo bonito (antiguo 9)" data-key="F" style="--chars: 33">
 <h3>249. Semitonos de 4: (7) Narrativo bonito (antiguo 9)</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10803,7 +10816,7 @@ K:F
 <article class="song" id="song-semitonos_de_4-08-emmanuel" data-title="Semitonos de 4: (8) Emmanuel" data-key="Em" style="--chars: 27">
 <h3>250. Semitonos de 4: (8) Emmanuel</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10832,7 +10845,7 @@ K:G
 <article class="song" id="song-semitonos_de_4-09-suplicante" data-title="Semitonos de 4: (9) Suplicante" data-key="Em" style="--chars: 32">
 <h3>251. Semitonos de 4: (9) Suplicante</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10861,7 +10874,7 @@ K:G
 <article class="song" id="song-semitonos_de_4-10-alegre_clasico" data-title="Semitonos de 4: (10) Alegre clásico" data-key="C" style="--chars: 24">
 <h3>252. Semitonos de 4: (10) Alegre clásico</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10890,7 +10903,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-11-junto_a_los_canales_de_babilonia" data-title="Semitonos de 4: (11) Junto a los canales de Babilonia" data-key="F" style="--chars: 31">
 <h3>253. Semitonos de 4: (11) Junto a los canales de Babilonia</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10919,7 +10932,7 @@ K:F
 <article class="song" id="song-semitonos_de_4-12-alegre_de_triples" data-title="Semitonos de 4: (12) Alegre de triples" data-key="C" style="--chars: 28">
 <h3>254. Semitonos de 4: (12) Alegre de triples</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10948,7 +10961,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-13-alegre_bonito" data-title="Semitonos de 4: (13) Alegre bonito" data-key="C" style="--chars: 26">
 <h3>255. Semitonos de 4: (13) Alegre bonito</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -10977,7 +10990,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-14-perez_bielza" data-title="Semitonos de 4: (14) Pérez-Bielza" data-key="C" style="--chars: 25">
 <h3>256. Semitonos de 4: (14) Pérez-Bielza</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11006,7 +11019,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-15-lamata" data-title="Semitonos de 4: (15) Lamata" data-key="F" style="--chars: 25">
 <h3>257. Semitonos de 4: (15) Lamata</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11035,7 +11048,7 @@ K:F
 <article class="song" id="song-semitonos_de_4-16-nistalmata" data-title="Semitonos de 4: (16) Nistalmata" data-key="C" style="--chars: 23">
 <h3>258. Semitonos de 4: (16) Nistalmata</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11064,7 +11077,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-17-silva" data-title="Semitonos de 4: (17) Silva" data-key="C" style="--chars: 21">
 <h3>259. Semitonos de 4: (17) Silva</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11093,7 +11106,7 @@ K:C
 <article class="song" id="song-semitonos_de_4-22-laudate_dominum_omnes_gentes" data-title="Semitonos de 4: (22) Laudate Dominum omnes gentes" data-key="D" style="--chars: 37">
 <h3>260. Semitonos de 4: (22) Laudate Dominum omnes gentes</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: D</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11122,7 +11135,7 @@ D/&quot;D&quot;F/ A4 &quot;G&quot;B/ &quot;A&quot;A | &quot;F#m&quot;A4 (3F/&quo
 <article class="song" id="song-semitonos_de_4-23-fernando" data-title="Semitonos de 4: (23) Fernando" data-key="A" style="--chars: 24">
 <h3>261. Semitonos de 4: (23) Fernando</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: A</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11151,7 +11164,7 @@ K:A
 <article class="song" id="song-semitonos_de_4-24-gorgoritos" data-title="Semitonos de 4: (24) Gorgoritos" data-key="Cm" style="--chars: 22">
 <h3>262. Semitonos de 4: (24) Gorgoritos</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Cm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k4">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k4">Semitonos de 4</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11180,7 +11193,7 @@ K:Cm
 <article class="song" id="song-semitonos_para_benedictus-01-semitono_para_benedictus" data-title="Semitonos para Benedictus: (1) Semitono para Benedictus" data-key="C" style="--chars: 14">
 <h3>263. Semitonos para Benedictus: (1) Semitono para Benedictus</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: C</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k7">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k7">Semitonos para Benedictus</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11209,7 +11222,7 @@ K:C
 <article class="song" id="song-semitonos_para_magnificat-01-semitono_para_magnificat" data-title="Semitonos para Magnificat: (1) Semitono para Magnificat" data-key="Em" style="--chars: 12">
 <h3>264. Semitonos para Magnificat: (1) Semitono para Magnificat</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k8">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k8">Semitonos para Magnificat</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11238,7 +11251,7 @@ K:G
 <article class="song" id="song-semitonos_para_magnificat-02-semitono_para_magnificat" data-title="Semitonos para Magnificat: (2) Semitono para Magnificat" data-key="G" style="--chars: 21">
 <h3>265. Semitonos para Magnificat: (2) Semitono para Magnificat</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k8">Sem</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k8">Semitonos para Magnificat</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11431,7 +11444,7 @@ A,/ &quot;D&quot;F F &quot;G&quot;G/ F G/ &quot;A&quot;E" data-tab="2/3 2/1 2/1 
 <article class="song" id="song-te_deum-te_deum" data-title="Te Deum" data-key="Dm" style="--chars: 43">
 <h3>271. Te Deum</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Dm</span></p>
-<p class="pills"><i class="k15">Ofi</i></p>
+<p class="pills"><i class="k15">Oficio de lectura</i></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11525,7 +11538,7 @@ K:F
 <article class="song" id="song-tonos_rectos-01-tono_recto_en_mi_1" data-title="Tonos rectos: (1) Tono recto en Mi 1" data-key="Em" style="--chars: 15">
 <h3>274. Tonos rectos: (1) Tono recto en Mi 1</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11548,7 +11561,7 @@ K:F
 <article class="song" id="song-tonos_rectos-01-tono_recto_en_mi_2" data-title="Tonos rectos: (1) Tono recto en Mi 2" data-key="Em" style="--chars: 17">
 <h3>275. Tonos rectos: (1) Tono recto en Mi 2</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Em</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11571,7 +11584,7 @@ K:F
 <article class="song" id="song-tonos_rectos-01-tono_recto_en_mi_3" data-title="Tonos rectos: (1) Tono recto en Mi 3" data-key="E" style="--chars: 11">
 <h3>276. Tonos rectos: (1) Tono recto en Mi 3</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: E</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11594,7 +11607,7 @@ K:F
 <article class="song" id="song-tonos_rectos-01-tono_recto_en_mi_4" data-title="Tonos rectos: (1) Tono recto en Mi 4" data-key="A" style="--chars: 14">
 <h3>277. Tonos rectos: (1) Tono recto en Mi 4</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: A</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11617,7 +11630,7 @@ K:F
 <article class="song" id="song-tonos_rectos-02-tono_recto_en_fa_1" data-title="Tonos rectos: (2) Tono recto en Fa 1" data-key="F" style="--chars: 13">
 <h3>278. Tonos rectos: (2) Tono recto en Fa 1</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: F</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11640,7 +11653,7 @@ K:F
 <article class="song" id="song-tonos_rectos-02-tono_recto_en_fa_2" data-title="Tonos rectos: (2) Tono recto en Fa 2" data-key="Bbm" style="--chars: 17">
 <h3>279. Tonos rectos: (2) Tono recto en Fa 2</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Bbm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11663,7 +11676,7 @@ K:F
 <article class="song" id="song-tonos_rectos-02-tono_recto_en_fa_3" data-title="Tonos rectos: (2) Tono recto en Fa 3" data-key="Fm" style="--chars: 15">
 <h3>280. Tonos rectos: (2) Tono recto en Fa 3</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Fm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11686,7 +11699,7 @@ K:F
 <article class="song" id="song-tonos_rectos-02-tono_recto_en_fa_4" data-title="Tonos rectos: (2) Tono recto en Fa 4" data-key="Fm" style="--chars: 15">
 <h3>281. Tonos rectos: (2) Tono recto en Fa 4</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Fm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11709,7 +11722,7 @@ K:F
 <article class="song" id="song-tonos_rectos-03-tono_recto_en_sol_1" data-title="Tonos rectos: (3) Tono recto en Sol 1" data-key="G" style="--chars: 12">
 <h3>282. Tonos rectos: (3) Tono recto en Sol 1</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11732,7 +11745,7 @@ K:F
 <article class="song" id="song-tonos_rectos-03-tono_recto_en_sol_2" data-title="Tonos rectos: (3) Tono recto en Sol 2" data-key="Cm" style="--chars: 16">
 <h3>283. Tonos rectos: (3) Tono recto en Sol 2</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Cm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11755,7 +11768,7 @@ K:F
 <article class="song" id="song-tonos_rectos-03-tono_recto_en_sol_3" data-title="Tonos rectos: (3) Tono recto en Sol 3" data-key="Gm" style="--chars: 16">
 <h3>284. Tonos rectos: (3) Tono recto en Sol 3</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: Gm</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -11778,7 +11791,7 @@ K:F
 <article class="song" id="song-tonos_rectos-03-tono_recto_en_sol_4" data-title="Tonos rectos: (3) Tono recto en Sol 4" data-key="G" style="--chars: 16">
 <h3>285. Tonos rectos: (3) Tono recto en Sol 4</h3>
 <p class="song-meta"><span class="meta-item song-key">Key: G</span></p>
-<p class="pills"><i class="k1">Fór</i><i class="k5">Ton</i></p>
+<p class="pills"><span><i class="k1">Fórmulas Salmódicas</i><i class="k5">Tonos Rectos</i></span></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
