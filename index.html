@@ -13452,13 +13452,18 @@ function searchText(text) {
 
 const searchIndex = [...document.querySelectorAll(".song")].map((song) => {
     // Lyric lines only: chord lines would add noise ("am", "do"...). A lyric
-    // under a chord line is its .line-pair's own text.
+    // under a chord line is its .line-pair's own text: everything but the
+    // .chord-line, including the syllable spans of the "Sílabas" marks
+    // (formula.js), which split words ("corrien<span>tes</span>"). A nested
+    // .lyric-line is indexed on its own.
     // A psalm's fórmula (formula.js) is a copy of another song: not the psalm's words.
     const lines = [...song.querySelectorAll(".lyric-line, .line-pair")]
         .filter((line) => !line.closest(".psalm-formula"))
         .map((line) => (line.matches(".lyric-line")
             ? line.textContent
-            : [...line.childNodes].filter((node) => node.nodeType === Node.TEXT_NODE).map((node) => node.data).join("")
+            : [...line.childNodes]
+                .filter((node) => node.nodeType === Node.TEXT_NODE || !node.matches(".chord-line, .lyric-line"))
+                .map((node) => node.textContent).join("")
         ).trim())
         .filter(Boolean);
     const lineText = lines.map(searchText);
