@@ -3,6 +3,9 @@ title: Éste es el día del Señor
 key: D
 horas:
   - semana_iii/jueves/visperas/himno
+song_tags:
+  tiempos:
+    - cuaresma
 melody: |
   K:D
   "D"F/ F/ F/ F/ D2 E F "G"G2

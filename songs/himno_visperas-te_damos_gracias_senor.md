@@ -3,6 +3,9 @@ title: Te damos gracias, Señor
 key: D
 horas:
   - semana_iv/viernes/visperas/himno
+song_tags:
+  tiempos:
+    - cuaresma
 melody: |
   K:D
   A,/ "D"F F "G"G/ F G/ "A"E

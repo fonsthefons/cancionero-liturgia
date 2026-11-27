@@ -3,6 +3,9 @@ title: Libra mis ojos de la muerte
 key: Bm
 horas:
   - semana_i/martes/visperas/himno
+song_tags:
+  tiempos:
+    - cuaresma
 melody: |
   K:D
   "Bm"D D/ E/ F F "A"E G "D"F F
